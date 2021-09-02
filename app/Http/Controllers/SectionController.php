@@ -60,7 +60,7 @@ $page=0;
     $Font="";
     //echo "ssss";
     $line=0;
-    $myfile = fopen("sections/01.01.01.0".$count.".html", "w") or die("Unable to open file!"); 
+    $myfile = fopen("sections/01-01-01-0".$count.".html", "w") or die("Unable to open file!"); 
 
     foreach ($xmll->children() as $child)
         {
@@ -123,7 +123,7 @@ $page=0;
                   foreach($kid->children() as $kid1 ) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
                   {
 
-                    // echo $kid ->getName()."<br>";
+                    //echo $kid ->getName()."<br>";
                     
                    
 
@@ -472,11 +472,11 @@ $tools='
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01.01.01.0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
+        <a href="01-01-01-0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
 
-         <a href="01.01.01.01.html" class="HomeArrow" title="المقدمة"></a> 
+         <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01.01.01.0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
+         <a href="01-01-01-0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
@@ -1174,7 +1174,7 @@ $("body").removeClass("in-fullscreen");
                                         $page++;
                               }    
                                         
-                               $myfile = fopen("sections/01.01.01.0".$count.".html", "w") or die("Unable to open file!");
+                               $myfile = fopen("sections/01-01-01-0".$count.".html", "w") or die("Unable to open file!");
                    }  
                   }
          
@@ -1199,11 +1199,11 @@ $next=$count;
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01.01.01.0'.$num.'.html" class='.$bef.' title="السابق"></a>
+        <a href="01-01-01-0'.$num.'.html" class='.$bef.' title="السابق"></a>
 
-         <a href="01.01.01.01.html" class="HomeArrow" title="المقدمة"></a> 
+         <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01.01.01.0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
+         <a href="01-01-01-0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
