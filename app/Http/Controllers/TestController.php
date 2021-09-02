@@ -12,16 +12,17 @@ class TestController extends Controller
         $page=0;
         $text='';
         $count=1;
-        $txt='';
+       // $txt='';
     
-        echo"kjj";
-         
+        
+         //تحميل الملف للقراءة منه
     $xmll=simplexml_load_file("test.xml");
+    //////ميثود يتم اعادة تنفيذها عند استدعائها 
     function recurse($child)
     {
  
       $info=array("foo" => "bar");
-
+/// 
        foreach($child->children() as $children)
         {
         
@@ -57,17 +58,17 @@ class TestController extends Controller
     $Font="";
     //echo "ssss";
     $line=0;
+    ///فى فولدر الورد يتم انشاء ملفات ويب بارقام 1و2و ..
     $myfile = fopen("word/".$count.".html", "w") or die("Unable to open file!"); 
-
+///////لكى تحصل على اسماء التاجات من ملف 
     foreach ($xmll->children() as $child)
         {
-            //echo "sii,s";
- //echo $child->getName()."<br>";
+            
     
         
          foreach($child->children() as $kid ) //Extra tages here 
          {
-          ///echo $kid ->getName()."<br>";
+         
           if ($kid->getName()=="hyperlink")
           {
             foreach($kid->children() as $kid1 )  
@@ -121,15 +122,15 @@ class TestController extends Controller
                   foreach($kid->children() as $kid1 ) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
                   {
 
-                    //echo $kid ->getName()."<br>";
+                   
                     
                    
 
-                    //echo "**".$kid1->getName()."<br>";
+                    
                     if ($kid1->getName()=="rPr")
                     { // many styles here color & size
                       $Rinfo=recurse($kid1);
-                      //echo "styles"."<br>";
+                      
                     }
                           
                             if ($kid1->getName()=="t")
@@ -137,8 +138,7 @@ class TestController extends Controller
                               
                               
                               
-                                //echo $kid1."<br>";
-                                //echo "////////////////////";
+                            
                                       if((isset($Rinfo["color"])))
                                         {  
                                           $color=$Rinfo["color"];
@@ -162,10 +162,13 @@ class TestController extends Controller
                                           //$txt.= $kid1;
                                         
                               //echo "<span style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</span>";
+                              ///to check data start with character p ////
                               if (str_starts_with($kid1, 'p')) {
                                 echo "hhh"."<br>";
+                                ///to check data contain character c  /////
                                 if (strchr($kid1,'C')) 
                                 {
+                                    ///////get data from folder images by code
                                   $text.='<p  align="center"; ><img src="assets/images/'.$kid1.'.png" ></p>';
                                 }
                               if (strchr($kid1,'R')) 
@@ -178,6 +181,7 @@ class TestController extends Controller
                               //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
                             
                               }
+                              ///get text if not image or N(END page)
                               if (!str_starts_with($kid1, 'p')&&!str_starts_with($kid1, 'N')) {
                               
                               $text.="<span style='" ;
@@ -199,10 +203,11 @@ class TestController extends Controller
                                 } 
                                 
 
-                              // echo "<span style=color:#$color;font-size:$size/2px;;font-family:$Font;>$kid1</span> <br>";   
+                               
                               
                               ///////////////////////////////start of header ///////////////////////////
      
+
       $pageTop=' 
       <!doctype html>
       <html dir="rtl">
@@ -443,7 +448,7 @@ class TestController extends Controller
    /////////////////////////////// end of header   //////////////////////////
 
 
-///////////////////////////////begin of footer ////////////////////////////////
+
 
 $next=$count+1;
  
@@ -1162,7 +1167,7 @@ $("body").removeClass("in-fullscreen");
                               }   
 
 
-                              //تقسيم الصفحات حسب حرف N
+                              /////تقسيم المحتوى فى ملف الورد حسب حرف N
                               if ($kid1=='N') {
                                  
                                 $count++;
