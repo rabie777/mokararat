@@ -67,7 +67,7 @@ class TestController extends Controller
         
          foreach($child->children() as $kid ) //Extra tages here 
          {
-          //echo $kid ->getName()."<br>";
+          ///echo $kid ->getName()."<br>";
           if ($kid->getName()=="hyperlink")
           {
             foreach($kid->children() as $kid1 )  
@@ -75,6 +75,7 @@ class TestController extends Controller
                
               foreach($kid1->children() as $kid2 )
                  {
+                    //echo $kid2 ->getName()."<br>";
                   if ($kid2->getName()=="rPr"){ // many styles here color & size
                     $Rinfo=recurse($kid2);
                     //echo "styles"."<br>";
@@ -120,7 +121,7 @@ class TestController extends Controller
                   foreach($kid->children() as $kid1 ) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
                   {
 
-                    // echo $kid ->getName()."<br>";
+                    //echo $kid ->getName()."<br>";
                     
                    
 
@@ -162,6 +163,7 @@ class TestController extends Controller
                                         
                               //echo "<span style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</span>";
                               if (str_starts_with($kid1, 'p')) {
+                                echo "hhh"."<br>";
                                 if (strchr($kid1,'C')) 
                                 {
                                   $text.='<p  align="center"; ><img src="assets/images/'.$kid1.'.png" ></p>';
@@ -184,14 +186,14 @@ class TestController extends Controller
                               $text.="font-size:".$size."px;font-family:$Font;'>$kid1</span>"."\n";
                               $color="";
                                 if ($kid1=='.'||$kid1=='،')
-                                {
+                                {  
                                   $text.="<br>";
-                                
+                              
                                 } 
-
+                         
                                 if ($kid1=='N')
                                 {
-                                 
+                                
                                 $page++;
                                 break;
                                 } 
@@ -469,11 +471,11 @@ $tools='
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01.01.01.0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
+        <a href="01-01-01-0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
 
-         <a href="01.01.01.01.html" class="HomeArrow" title="المقدمة"></a> 
+         <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01.01.01.0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
+         <a href="01-01-01-0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
@@ -1158,7 +1160,11 @@ $("body").removeClass("in-fullscreen");
 /////////////////////////////end of footer ////////////////////////////////////////
 
                               }   
+
+
+                              //تقسيم الصفحات حسب حرف N
                               if ($kid1=='N') {
+                                 
                                 $count++;
                                 $text = $pageTop.$text.$tools.$footer;
                                 
@@ -1169,9 +1175,11 @@ $("body").removeClass("in-fullscreen");
                                         $Font="";
                                         $text="";
                                         $page++;
+                                        
                               }    
                                         
                                $myfile = fopen("word/".$count.".html", "w") or die("Unable to open file!");
+                              
                    }  
                   }
          
@@ -1196,11 +1204,11 @@ $next=$count;
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01.01.01.0'.$num.'.html" class='.$bef.' title="السابق"></a>
+        <a href="01-01-01-0'.$num.'.html" class='.$bef.' title="السابق"></a>
 
-         <a href="01.01.01.01.html" class="HomeArrow" title="المقدمة"></a> 
+         <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01.01.01.0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
+         <a href="01-01-01-0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
