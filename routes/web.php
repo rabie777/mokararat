@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 
 Route::get('/section', '\App\Http\Controllers\SectionController@tester');
+
+Route::get('/getstyle', '\App\Http\Controllers\TestController@getstyle');
+
+Route::get('/style', '\App\Http\Controllers\copyController@style');

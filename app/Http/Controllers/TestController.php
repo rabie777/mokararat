@@ -4,23 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SectionController extends Controller
+class TestController extends Controller
 {
-    public function tester(){
-        
-       
-        
-$page=0;
+    //
+
+    public function getstyle(){
+        $page=0;
         $text='';
         $count=1;
         $txt='';
-        
-        // $currentLink = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        // print_r($currentLink);
-        
+    
+        echo"kjj";
          
-    $xmll=simplexml_load_file("fast5.xml");
-  
+    $xmll=simplexml_load_file("test.xml");
     function recurse($child)
     {
  
@@ -29,21 +25,21 @@ $page=0;
        foreach($child->children() as $children)
         {
         
-            if ($children->getName()=="wszCs" )
+            if ($children->getName()=="szCs" )
               { 
                 $info["size"] = $children->attributes();
                 
               }
-              if ($children->getName()=="wcolor" )
+              if ($children->getName()=="color" )
               {   
                 $info["color"] = $children->attributes();
               }
-              if ($children->getName()=="wrFonts" )
+              if ($children->getName()=="rFonts" )
               { 
                 $info["Font"] = $children->attributes();
               }
 
-              if ($children->getName()=="wb" )
+              if ($children->getName()=="b" )
               { 
                 $info["Bold"] = "Bold";
               } 
@@ -61,7 +57,7 @@ $page=0;
     $Font="";
     //echo "ssss";
     $line=0;
-    $myfile = fopen("sections/01.01.01.0".$count.".html", "w") or die("Unable to open file!"); 
+    $myfile = fopen("word/".$count.".html", "w") or die("Unable to open file!"); 
 
     foreach ($xmll->children() as $child)
         {
@@ -72,21 +68,21 @@ $page=0;
          foreach($child->children() as $kid ) //Extra tages here 
          {
           //echo $kid ->getName()."<br>";
-          if ($kid->getName()=="whyperlink")
+          if ($kid->getName()=="hyperlink")
           {
             foreach($kid->children() as $kid1 )  
              {
                
               foreach($kid1->children() as $kid2 )
                  {
-                  if ($kid2->getName()=="wrPr"){ // many styles here color & size
+                  if ($kid2->getName()=="rPr"){ // many styles here color & size
                     $Rinfo=recurse($kid2);
                     //echo "styles"."<br>";
                   }
 
 
 
-                  if ($kid2->getName()=="wt")
+                  if ($kid2->getName()=="t")
                   {
                     if((isset($Rinfo["color"])))
                     {  
@@ -129,13 +125,13 @@ $page=0;
                    
 
                     //echo "**".$kid1->getName()."<br>";
-                    if ($kid1->getName()=="wrPr")
+                    if ($kid1->getName()=="rPr")
                     { // many styles here color & size
                       $Rinfo=recurse($kid1);
                       //echo "styles"."<br>";
                     }
                           
-                            if ($kid1->getName()=="wt")
+                            if ($kid1->getName()=="t")
                             {
                               
                               
@@ -1175,7 +1171,7 @@ $("body").removeClass("in-fullscreen");
                                         $page++;
                               }    
                                         
-                               $myfile = fopen("sections/01.01.01.0".$count.".html", "w") or die("Unable to open file!");
+                               $myfile = fopen("word/".$count.".html", "w") or die("Unable to open file!");
                    }  
                   }
          
@@ -1221,5 +1217,5 @@ $text = $pageTop.$text.$tools.$footer;
         fclose($myfile); 
 
     }
-    
-}
+
+    }
