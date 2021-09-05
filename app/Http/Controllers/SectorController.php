@@ -23,7 +23,7 @@ class SectorController extends Controller
 
 
 
-        $xmll=simplexml_load_file("exp1.xml");
+        $xmll=simplexml_load_file("t1.xml");
   
         function recurse($child)
         {
@@ -186,38 +186,83 @@ class SectorController extends Controller
                                   }
                                   if (!str_starts_with($kid1, 'P')&&!str_starts_with($kid1, 'N')) {
                                   ////////////////////////////////////////////////////
-                                   
-                                  /*if (str_starts_with($kid1, 'HB')) {
-                                   $text.="<div class='Header_Box' >";
-                                   
+                               
+                                  if (str_starts_with($kid1, '>')) {
+                                    $data=" ";
+                                    $data.="<div class='Header_Box' >";
+                                    
+                                   $data.="<style='" ;
+                                   if($color){ $data.= "color:#$color;"; }
+                                   $Font="bahij";
+                                   $data.="font-size:".$size."px;font-family:".$Font.";'>$kid1"."\n";
+                                   $text.= $data; 
+                                  
                                   }
-                             
-                                  $text.="<span  style='" ;
+                                   if (str_starts_with($kid1, '<')) {
+                                     
+                                     $text.="</div>";
+                                     
+                                      echo  $text."<br>";
+                                     $data=" ";
+                                     
+                                   
+                                   }
+                                    //////////////////////////////////////////////////
+                                   /* if (str_starts_with($kid1, '/')) {
+                                     
+                                      $text.="<div class='Reference_Box' >";
+                                      
+                                     $text.="<style='" ;
+                                     if($color){ $text.= "color:#$color;"; }
+                                    // $Font="bahij";
+                                     $text.="font-size:".$size."px;font-family:".$Font.";'>"."\n";
+                                    }
+                                    if($color){ $text.= "<span  style='"."color:#$color;' >".$kid1."</span>"; }
+                                    else
+                                    {
+                                     
+                                        $text.=$kid1;
+                                        }
+                                     if (str_starts_with($kid1, '*')) {
+                                       
+                                       $text.="</div>";
+                                     $text.=" ";
+                                     }*/
+                                   ///////////////////////////////////////////////////
+                                  if (str_starts_with($kid1, '}')) {
+                                   $text.="<div class='Header_Box' ";
+                                    $text.=" style='" ;
                                   if($color){ $text.= "color:#$color;"; }
                                   //s$Font="bahij";
-                                  $text.="font-size:".$size."px;font-family:$Font;'>$kid1</span>"."\n";
+                                  $text.="font-size:".$size."px; font-family:$Font;' >"."\n";
+                                  }
+                             
+                                  if($color){ $text.= "<span  style='"."color:#$color;' >".$kid1."</span>"; }
+                                  else
+                                  {
                                    
-
-
-                                  if (str_starts_with($kid1, 'EH')) {
+                                      $text.=$kid1;
+                                      }
+                                  if (str_starts_with($kid1, '{')) {
                                     
                                     $text.="</div>";
-                                    
+                                    $text.=" ";
                                   
-                                  }*/
+                                  }
                                   //////////////////////////////////////////////////////
-                                   if ($kid1=='TB') {
+                                   if ($kid1==']') {
                                     $text.="<div class='Title_Box'>";
-                                   }
+                                   
                               
                                    $text.="<span  style='" ;
                                    if($color){ $text.= "color:#$color;"; }
                                    //s$Font="bahij";
-                                   $text.="font-size:".$size."px;font-family:$Font;'>$kid1</span>"."\n";
+                                   $text.="font-size:".$size."px;font-family:".$Font.";'>$kid1</span>"."\n";
                                     
- 
-                                   if ($kid1=='ET') {
+                                   }
+                                   if ($kid1=='[') {
                                      $text.="</div>";
+                                     $text.=" ";
                                    }
                                   //////////////////////////////////////////////////
                                     
@@ -227,7 +272,7 @@ class SectorController extends Controller
                                     $text.="<div class='Title_Box' >";
                                   
                                   }
-                                  
+                                9qe
                                   $text.="<span  style='" ;
                                   if($color){ $text.= "color:#$color;"; }
                                   //s$Font="bahij";
@@ -406,6 +451,14 @@ class SectorController extends Controller
           }
           .Title_Box{
             background-color: #00ffff;
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+          }
+          .Reference_Box
+          {
+            background-color: #ffffcc;
             color: black;
             border: 2px solid black;
             margin: 20px;
