@@ -1,212 +1,4 @@
-<?php
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-
-class SectionController extends Controller
-{
-    public function tester(){
-        
-       
-        
-$page=0;
-        $text='';
-        $count=1;
-        $txt='';
-        
-        // $currentLink = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        // print_r($currentLink);
-        
-         
-    $xmll=simplexml_load_file("fast5.xml");
-  
-    function recurse($child)
-    {
  
-      $info=array("foo" => "bar");
-
-       foreach($child->children() as $children)
-        {
-        
-            if ($children->getName()=="wszCs" )
-              { 
-                $info["size"] = $children->attributes();
-                
-              }
-              if ($children->getName()=="wcolor" )
-              {   
-                $info["color"] = $children->attributes();
-              }
-              if ($children->getName()=="wrFonts" )
-              { 
-                $info["Font"] = $children->attributes();
-              }
-
-              if ($children->getName()=="wb" )
-              { 
-                $info["Bold"] = "Bold";
-              } 
-             
-        }
-        return  $info;
-      
-    }
-    
-     
-    $Rinfo=array();
-    $color="";
-    $size="";
-    $Bold="";
-    $Font="";
-    //echo "ssss";
-    $line=0;
-    $myfile = fopen("sections/01-01-01-0".$count.".html", "w") or die("Unable to open file!"); 
-
-    foreach ($xmll->children() as $child)
-        {
-            //echo "sii,s";
- //echo $child->getName()."<br>";
-    
-        
-         foreach($child->children() as $kid ) //Extra tages here 
-         {
-          //echo $kid ->getName()."<br>";
-          if ($kid->getName()=="whyperlink")
-          {
-            foreach($kid->children() as $kid1 )  
-             {
-               
-              foreach($kid1->children() as $kid2 )
-                 {
-                  if ($kid2->getName()=="wrPr"){ // many styles here color & size
-                    $Rinfo=recurse($kid2);
-                    //echo "styles"."<br>";
-                  }
-
-
-
-                  if ($kid2->getName()=="wt")
-                  {
-                    if((isset($Rinfo["color"])))
-                    {  
-                      $color=$Rinfo["color"];
-                    }
-
-                    if((isset($Rinfo["size"])))
-                    {   
-                      //echo $kid1."<br>";
-                      $size=$Rinfo["size"];
-                    }
-                    if((isset($Rinfo["Font"])))
-                    { 
-                      $Font=$Rinfo["Font"];
-                    }
-                    if((isset($Rinfo["Bold"])))
-                    {
-                      $Bold="Bold";
-                    }
-                    //echo "<span style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid2</span>";
-                      
-                    $text.="<span style=color:#$color;font-size:".$size."px;font-family:$Font>$kid2 &nbsp</span>";
-                                $color="";
-                                $size="";
-                                $Bold="";
-                                $Font="";
-                    }
-                 }
-             }
-          }
-
-                  ////////////////////////////////////////
-
-          
-                  foreach($kid->children() as $kid1 ) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
-                  {
-
-                    //echo $kid ->getName()."<br>";
-                    
-                   
-
-                    //echo "**".$kid1->getName()."<br>";
-                    if ($kid1->getName()=="wrPr")
-                    { // many styles here color & size
-                      $Rinfo=recurse($kid1);
-                      //echo "styles"."<br>";
-                    }
-                          
-                            if ($kid1->getName()=="wt")
-                            {
-                              
-                              
-                              
-                                //echo $kid1."<br>";
-                                //echo "////////////////////";
-                                      if((isset($Rinfo["color"])))
-                                        {  
-                                          $color=$Rinfo["color"];
-                                        }
-
-                                        if((isset($Rinfo["size"])))
-                                        {   
-                                          //echo $kid1."<br>";
-                                          $size=$Rinfo["size"];
-                                        }
-                                        if((isset($Rinfo["Font"])))
-                                        { 
-                                          $Font=$Rinfo["Font"];
-                                        }
-                                        if((isset($Rinfo["Bold"])))
-                                        {
-                                          $Bold="Bold";
-                                        }
-                                        //&& !(str_starts_with($kid1, 'p'))
-                                        //if($kid1 !=='.' ){ 
-                                          //$txt.= $kid1;
-                                        
-                              //echo "<span style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</span>";
-                              if (str_starts_with($kid1, 'p')) {
-                                if (strchr($kid1,'C')) 
-                                {
-                                  $text.='<p  align="center"; ><img src="assets/images/'.$kid1.'.png" ></p>';
-                                }
-                              if (strchr($kid1,'R')) 
-                                {
-                                  $text.='<p  align="right" ><img src="assets/images/'.$kid1.'.png" ></p>';
-
-                                }
-
-                            //echo $kid1 ."<br>";
-                              //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
-                            
-                              }
-                              if (!str_starts_with($kid1, 'p')&&!str_starts_with($kid1, 'N')) {
-                              
-                              $text.="<span style='" ;
-                              if($color){ $text.= "color:#$color;"; }
-                              $Font="bahij";
-                              $text.="font-size:".$size."px;font-family:$Font;'>$kid1</span>"."\n";
-                              $color="";
-                                if ($kid1=='.'||$kid1=='،')
-                                {
-                                 // echo"rrrrrrrrrrrrrr";
-                                  $text.="<br>";
-                                
-                                } 
-                               
-                                // if ($kid1=='N')
-                                // {
-                                  
-                                // $page++;
-                                // break;
-                                // } 
-                                
-
-                              // echo "<span style=color:#$color;font-size:$size/2px;;font-family:$Font;>$kid1</span> <br>";   
-                              
-                              ///////////////////////////////start of header ///////////////////////////
-     
-      $pageTop=' 
       <!doctype html>
       <html dir="rtl">
 
@@ -442,30 +234,146 @@ $page=0;
                                   <div class="table-cell MainScr_med_med">
                                     <div class="TextArea content-rd">
              
-        ';
-   /////////////////////////////// end of header   //////////////////////////
+        <span style='font-size:px;font-family:bahij;'></span>
+<span style='font-size:32px;font-family:bahij;'>
+				خلاف الحنفية في
+			</span>
+<span style='color:#0070C0;font-size:32px;font-family:bahij;'>
+				ثبوت الهلال
+			</span>
+<span style='font-size:32px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				فإن أكملوا ثلاثين ولم يروا الهلال؟
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				(1) قال
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					محمد
+				 &nbsp</span><span style='font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				يفطرون بناء على ثبوت الرمضانية بشهادة الواحد، وإن كان الفطر لا يثبت به ابتداء كالإرث بناء على ثبوت النسب بقول
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					القابلة
+				 &nbsp</span><span style='font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				(2) وروى
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					الحسن
+				 &nbsp</span><span style='color:#00B0F0;font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				عن
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					أبي حنيفة
+				 &nbsp</span><span style='font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				أنهم لا يفطرون أخذًا بالاحتياط.
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				(3) وقال
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					محمد
+				 &nbsp</span><span style='font-size:28px;font-family:bahij;'>
+				-
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				رحمه الله لا أتهم مسلمًا بتعجيل صوم يوم
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:32px;font-family:bahij;'>
+				الحكم إذا
+			</span>
+<span style='color:#0070C0;font-size:32px;font-family:bahij;'>
+				رد القاضي شهادة من رأى الهلال
+			</span>
+<span style='font-size:32px;font-family:bahij;'></span>
+<p  align="center"; ><img src="assets/images/p-01-13-C
+			.png" ></p><span style='font-size:28px;font-family:bahij;'>
+				لأنه رآه، فإن أفطر قضى لوجوب
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					الأداء
+				 &nbsp</span><span style='color:#00B0F0;font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				ولا كفارة عليه لمكان الشبه
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				ولا يفطر آخر الشهر إلا مع الناس احتياطًا، ولو أفطر لا كفارة عليه عملًا باعتقاده
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:32px;font-family:bahij;'>
+				الحكم إذا
+			</span>
+<span style='color:#0070C0;font-size:32px;font-family:bahij;'>
+				لم يكن بالسماء علة
+			</span>
+<span style='font-size:32px;font-family:bahij;'></span>
+<p  align="center"; ><img src="assets/images/p-01-14-C
+			.png" ></p><span style='font-size:28px;font-family:bahij;'>
+				قولان في المسألة
+			</span>
+<span style='color:#0070C0;font-size:28px;font-family:bahij;'>
+				الأول
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				أنه مفوض إلى رأي الإمام من غير تقدير، وهو
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					الصحيح
+				 &nbsp</span><span style='font-size:28px;font-family:bahij;'>
+				، وهذا لأن
+			</span>
+<span style=color:#00B0F0;font-size:28px;font-family:Almarai>
+					المطالع
+				 &nbsp</span><span style='color:#00B0F0;font-size:28px;font-family:bahij;'></span>
+<span style='font-size:28px;font-family:bahij;'>
+				متحدة
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				الموانع مرتفعة
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				الأبصار صحيحة
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				الهمم في الرؤية متقاربة
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
+<span style='color:#FF0000;font-size:28px;font-family:bahij;'>
+				ف
+			</span>
+<span style='font-size:28px;font-family:bahij;'>
+				لا يجوز أن يختص بالرؤية البعض القليل
+			</span>
+<span style='color:#00B050;font-size:28px;font-family:bahij;'>
+				.
+			</span>
 
-
-///////////////////////////////begin of footer ////////////////////////////////
-
-$next=$count+1;
- 
-$bef="LeftArrow";
-$nxt="RightArrow";
-if($count==1)
-{  
-$num=$count;
-$bef="LeftArrow off ";
-}
-else
-{   $num=$count-1;
-     
-}
- 
-
- 
-
-$tools='
         </div> 
         </div> 
         <div class="table-cell MainScr_med_left"></div> 
@@ -474,18 +382,17 @@ $tools='
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01-01-01-0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
+        <a href="01-01-01-03.html" class="LeftArrow" title="السابق"></a>
 
          <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01-01-01-0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
+         <a href="01-01-01-05.html" class="RightArrow" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
          <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="bahij" class="fontDefualt" title="إستعاد حجم الخط"> 
          <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontMins.png" id="decreaseFont" class="fontMins " title="تصغير حجم الخط"> 
-        </div>';
-        $footer='
+        </div>
         <div class="table-cell MainScr_bot_left"></div>
         </div>
       </div>
@@ -1153,74 +1060,4 @@ $("body").removeClass("in-fullscreen");
 </script>
 </body>
 
-</html>';
-
-
-
-
-
-
-/////////////////////////////end of footer ////////////////////////////////////////
-
-                              }   
-                              if ($kid1=='N') {
-                                $count++;
-                                $text = $pageTop.$text.$tools.$footer;
-                                
-                                fwrite($myfile,$text);
-                                        $color="";
-                                        $size="";
-                                        $Bold="";
-                                        $Font="";
-                                        $text="";
-                                        $page++;
-                              }    
-                                        
-                               $myfile = fopen("sections/01-01-01-0".$count.".html", "w") or die("Unable to open file!");
-                   }  
-                  }
-         
-         }
-         
-        }
-      //  echo $count."<br>";
-     if($page<$count-1){
-      $text = $pageTop.$text.$tools.$footer;
-     }
-else{
-  echo $count;
-$next=$count;
- ////////////////////////
-
- $tools='
-        </div> 
-        </div> 
-        <div class="table-cell MainScr_med_left"></div> 
-       </div> 
-       <div class="table-row"> 
-        <div class="table-cell MainScr_bot_right"></div> 
-        <div class="table-cell MainScr_bot_med"> 
-
-        <a href="01-01-01-0'.$num.'.html" class='.$bef.' title="السابق"></a>
-
-         <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
-
-         <a href="01-01-01-0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
-
-         <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
-         <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
-         <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="bahij" class="fontDefualt" title="إستعاد حجم الخط"> 
-         <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontMins.png" id="decreaseFont" class="fontMins " title="تصغير حجم الخط"> 
-        </div>';
- ////////////////////////
-$text = $pageTop.$text.$tools.$footer;
-}
-         //$nxt="LeftArrow  off tooltipstered";
-     
-         
-        fwrite($myfile,$text);
-        fclose($myfile); 
-
-    }
-    
-}
+</html>
