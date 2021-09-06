@@ -54,7 +54,7 @@ class RabieController extends Controller
     $Font = "";
     //echo "ssss";
     $line = 0;
-    $myfile = fopen("rabie/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
+    $myfile = fopen("se/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
 
     foreach ($rabie->children() as $child) {
       //echo "sii,s";
@@ -162,7 +162,7 @@ class RabieController extends Controller
               if ($color) {
                 $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 ."&nbsp". "</span>";
               } else {
-                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH');
+                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
                 $text .="<span >".str_replace($vowels, '', $kid1)."</span>";
               }
 
@@ -183,12 +183,7 @@ class RabieController extends Controller
               }
 
               //$text.= $data; 
-
-
-
-
-
-              if (str_starts_with($kid1, 'EH')) {
+                if (str_starts_with($kid1, 'EH')) {
                
                 $text .= "</div>";
 
@@ -202,7 +197,7 @@ class RabieController extends Controller
 
                 $text .= "style='";
                 //if($color){ $text.= "color:#$color;"; }
-                // $Font="bahij";
+                //$Font="QCF_P029";
                 $text .= "font-size:" . "px;font-family:" . $Font . ";'>" . "\n";
                 $kid1 = str_replace('RB', '', $kid1);
                 if ($color) {
@@ -212,7 +207,11 @@ class RabieController extends Controller
                   $text .= $kid1;
                 }
               }
-             
+              if (str_starts_with($kid1, 'ER')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
               ///////////////////////////////////////////////////
               if (str_starts_with($kid1, 'SB')) {
 
@@ -240,7 +239,7 @@ class RabieController extends Controller
                 $text .= " ";
               }
               //////////////////////////////////////////////////////
-              if ($kid1 == 'TB') {
+              if (str_starts_with($kid1,'TB')) {
                 $text .= "<div class='Title_Box'>";
 
                 $kid1 = str_replace('TB', '', $kid1);
@@ -251,42 +250,18 @@ class RabieController extends Controller
                 //s$Font="bahij";
                 $text .= "font-size:"  . "px;font-family:" . $Font . ";'>" . $kid1 . "</span>" . "\n";
               }
-              if ($kid1 == 'ET') {
+             /*  if ( $kid1=='E') {
                 $text .= "</div>";
                 $text .= " ";
-              }
+              }*/
 
-               if (str_starts_with($kid1, 'ER')) {
+              if (str_starts_with($kid1, 'ET')) {
 
                 $text .= "</div>";
                 $text .= " ";
               }
               //////////////////////////////////////////////////
-
-              /*  if (str_starts_with($kid1, 'TB')) {
-                                    
-                      
-                                    $text.="<div class='Title_Box' >";
-                                  
-                                  }
-                                9qe
-                                  $text.="<span  style='" ;
-                                  if($color){ $text.= "color:#$color;"; }
-                                  //s$Font="bahij";
-                                  $text.="font-size:".$size."px;font-family:$Font;'>$kid1</span>"."\n";
-                                  
-
-
-                                  if (str_starts_with($kid1, 'ET')) {
-                                    
-                                    $text.="</div>";
-                                    $text.=" ";
-                                  
-                                  }*/
-
-
-
-
+  
               /*$text.="<div  style='" ;
                                   if($color){ $text.= "color:#$color;"; }
                                   //s$Font="bahij";
@@ -308,7 +283,7 @@ class RabieController extends Controller
                 $page++;
                 break;
               }
-
+             
               ///////////////////////////////start of header ///////////////////////////
 
               $pageTop = ' 
@@ -420,22 +395,28 @@ class RabieController extends Controller
           href="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/css/fonts.css"
           charset="utf-8">
         <style>
-          #MainArea .MainScr .MainScr_med_med,
-          .SupportTempsInPopup .MainScr .MainScr_med_med {
-            background: #ffffff;
-          }
-      
-          #Temp009 .TextArea {
-            max-height: 75vh;
-          }
-      
-          .MainScr {
-            margin-bottom: 0px !important;
-          }
-      
-          .body {
-            height: 100% !important;
-          }
+        #MainArea .MainScr .MainScr_med_med,
+        .SupportTempsInPopup .MainScr .MainScr_med_med {
+          background: #ffffff;
+        }
+    html{    
+      overflow: hidden;
+    }
+        #Temp009 .TextArea {
+          max-height: 86vh;
+          min-height: 85vh;
+        }
+    
+        #mybody, #R02,.MainScr,.TextArea,#Temp009 .MainScr_med_med,.Title2  {
+          margin-bottom: 0px !important;
+          margin-top: 0px !important;
+          padding-bottom: 0px !important;
+          padding-top: 0px !important;
+        }
+    
+        .body {
+          height: 100% !important;
+        }
           .Header_Box {
             background-color: #e6ffff;
             color: black;
@@ -1304,7 +1285,7 @@ $("body").removeClass("in-fullscreen");
             }
 
 
-            $myfile = fopen("sectors/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
+            $myfile = fopen("se/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
           }
         }
       }
