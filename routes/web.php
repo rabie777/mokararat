@@ -20,7 +20,9 @@ Route::get('/', function () {
 
 Route::get('/section', '\App\Http\Controllers\SectionController@tester');
 
-Route::get('/getstyle', '\App\Http\Controllers\TestController@getstyle');
+Route::get('/get', '\App\Http\Controllers\TestController@tester');
 
 Route::get('/style', '\App\Http\Controllers\copyController@style');
-//Route::get('/sector', '\App\Http\Controllers\SectorController@tester');
+Route::get('/sector', '\App\Http\Controllers\SectorController@tester');
+
+Route::get('/new', '\App\Http\Controllers\RabieController@tester');

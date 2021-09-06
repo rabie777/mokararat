@@ -6,16 +6,17 @@ use Illuminate\Http\Request;
 
 class SectorController extends Controller
 {
-   //////////////header///////////////////
-    
+  //////////////header///////////////////
+
 
   /////////////////////////////////
-    public function tester(){
-        $page=0;
-        $text='';
-        $count=1;
-        $head=0;
-        $txt='';
+  public function tester()
+  {
+    $page = 0;
+    $text = '';
+    $count = 1;
+    $head = 0;
+    $txt = '';
 
 
 
@@ -23,250 +24,250 @@ class SectorController extends Controller
 
 
 
-        $xmll=simplexml_load_file("t1.xml");
-  
-        function recurse($child)
-        {
-     
-          $info=array("foo" => "bar");
-    
-           foreach($child->children() as $children)
-            {
-            
-                if ($children->getName()=="wszCs" )
-                  { 
-                    $info["size"] = $children->attributes();
-                  }
-                  if ($children->getName()=="wcolor" )
-                  {   
-                    $info["color"] = $children->attributes();
-                  }
-                  if ($children->getName()=="wrFonts" )
-                  { 
-                    $info["Font"] = $children->attributes();
-                  }
-    
-                  if ($children->getName()=="wb" )
-                  { 
-                    $info["Bold"] = "Bold";
-                  } 
-                 
-            }
-            return  $info;
-          
+    $xmll = simplexml_load_file("exp1.xml");
+
+    function recurse($child)
+    {
+
+      $info = array("foo" => "bar");
+
+      foreach ($child->children() as $children) {
+
+        if ($children->getName() == "wszCs") {
+          $info["size"] = $children->attributes();
         }
-        
-         
-        $Rinfo=array();
-        $color="";
-        $size="";
-        $Bold="";
-        $Font="";
-        //echo "ssss";
-        $line=0;
-        $myfile = fopen("sectors/01-01-01-0".$count.".html", "w") or die("Unable to open file!"); 
-    
-        foreach ($xmll->children() as $child)
-            {
-                //echo "sii,s";
-     //echo $child->getName()."<br>";
-        
-            
-             foreach($child->children() as $kid ) //Extra tages here 
-             {
-              //echo $kid ->getName()."<br>";
-              if ($kid->getName()=="whyperlink")
-              {
-                foreach($kid->children() as $kid1 )  
-                 {
-                   
-                  foreach($kid1->children() as $kid2 )
-                     {
-                      if ($kid2->getName()=="wrPr"){ // many styles here color & size
-                        $Rinfo=recurse($kid2);
-                        //echo "styles"."<br>";
-                      }
-    
-    
-    
-                      if ($kid2->getName()=="wt")
-                      {
-                        if((isset($Rinfo["color"])))
-                        {  
-                          $color=$Rinfo["color"];
-                        }
-    
-                        if((isset($Rinfo["size"])))
-                        {   
-                          //echo $kid1."<br>";
-                          $size=$Rinfo["size"];
-                        }
-                        if((isset($Rinfo["Font"])))
-                        { 
-                          $Font=$Rinfo["Font"];
-                        }
-                        if((isset($Rinfo["Bold"])))
-                        {
-                          $Bold="Bold";
-                        }
-                        //echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid2</div>";
-                          
-                        $text.="<span style=color:#$color;font-size:".$size."px;font-family:$Font>$kid2 &nbsp</span>";
-                                    $color="";
-                                    $size="";
-                                    $Bold="";
-                                    $Font="";
-                        }
-                     }
-                 }
+        if ($children->getName() == "wcolor") {
+          $info["color"] = $children->attributes();
+        }
+        if ($children->getName() == "wrFonts") {
+          $info["Font"] = $children->attributes();
+        }
+
+        if ($children->getName() == "wb") {
+          $info["Bold"] = "Bold";
+        }
+      }
+      return  $info;
+    }
+
+
+    $Rinfo = array();
+    $color = "";
+    $size = "";
+    $Bold = "";
+    $Font = "";
+    //echo "ssss";
+    $line = 0;
+    $myfile = fopen("sectors/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
+
+    foreach ($xmll->children() as $child) {
+      //echo "sii,s";
+      //echo $child->getName()."<br>";
+
+
+      foreach ($child->children() as $kid) //Extra tages here 
+      {
+        //echo $kid ->getName()."<br>";
+        if ($kid->getName() == "whyperlink") {
+          foreach ($kid->children() as $kid1) {
+
+            foreach ($kid1->children() as $kid2) {
+              if ($kid2->getName() == "wrPr") { // many styles here color & size
+                $Rinfo = recurse($kid2);
+                //echo "styles"."<br>";
               }
-    
-                      ////////////////////////////////////////
-                      
-    
-                     ////////////////////////////////////////
-                      foreach($kid->children() as $kid1 ) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
-                      {
-    
-                        //echo $kid ->getName()."<br>";
-                        
-                       
-    
-                        //echo "**".$kid1->getName()."<br>";
-                        if ($kid1->getName()=="wrPr")
-                        { // many styles here color & size
-                          $Rinfo=recurse($kid1);
-                          //echo "styles"."<br>";
-                        }
-                              
-                                if ($kid1->getName()=="wt")
-                                {
-                                  
-                                  
-                                  
-                                    //echo $kid1."<br>";
-                                    //echo "////////////////////";
-                                          if((isset($Rinfo["color"])))
-                                            {  
-                                              $color=$Rinfo["color"];
-                                            }
-    
-                                            if((isset($Rinfo["size"])))
-                                            {   
-                                              //echo $kid1."<br>";
-                                              $size=$Rinfo["size"];
-                                            }
-                                            if((isset($Rinfo["Font"])))
-                                            { 
-                                              $Font=$Rinfo["Font"];
-                                            }
-                                            if((isset($Rinfo["Bold"])))
-                                            {
-                                              $Bold="Bold";
-                                            }
-                                            //&& !(str_starts_with($kid1, 'p'))
-                                            //if($kid1 !=='.' ){ 
-                                              //$txt.= $kid1;
-                                            
-                                 // echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</div>";
-                                  if (str_starts_with($kid1, 'P')) {
-                                    if (strchr($kid1,'C')) 
-                                    {
-                                      $text.='<p  align="center"; ><img src="assets/images/'.$kid1.'.png" ></p>';
-                                    }
-                                  if (strchr($kid1,'R')) 
-                                    {
-                                      $text.='<p  align="right" ><img src="assets/images/'.$kid1.'.png" ></p>';
-    
-                                    }
-    
-                                //echo $kid1 ."<br>";
-                                  //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
-                                
-                                  }
-                                  if (!str_starts_with($kid1, 'P')&&!str_starts_with($kid1, 'N')) {
-                                  ////////////////////////////////////////////////////
-                               
-                                  if (str_starts_with($kid1, '>')) {
-                                    $data=" ";
-                                    $data.="<div class='Header_Box' >";
-                                    
-                                   $data.="<style='" ;
-                                   if($color){ $data.= "color:#$color;"; }
-                                   $Font="bahij";
-                                   $data.="font-size:".$size."px;font-family:".$Font.";'>$kid1"."\n";
-                                   $text.= $data; 
-                                  
-                                  }
-                                   if (str_starts_with($kid1, '<')) {
-                                     
-                                     $text.="</div>";
-                                     
-                                      echo  $text."<br>";
-                                     $data=" ";
-                                     
-                                   
-                                   }
-                                    //////////////////////////////////////////////////
-                                   /* if (str_starts_with($kid1, '/')) {
-                                     
-                                      $text.="<div class='Reference_Box' >";
-                                      
-                                     $text.="<style='" ;
-                                     if($color){ $text.= "color:#$color;"; }
-                                    // $Font="bahij";
-                                     $text.="font-size:".$size."px;font-family:".$Font.";'>"."\n";
-                                    }
-                                    if($color){ $text.= "<span  style='"."color:#$color;' >".$kid1."</span>"; }
-                                    else
-                                    {
-                                     
-                                        $text.=$kid1;
-                                        }
-                                     if (str_starts_with($kid1, '*')) {
-                                       
-                                       $text.="</div>";
-                                     $text.=" ";
-                                     }*/
-                                   ///////////////////////////////////////////////////
-                                  if (str_starts_with($kid1, '}')) {
-                                   $text.="<div class='Header_Box' ";
-                                    $text.=" style='" ;
-                                  if($color){ $text.= "color:#$color;"; }
-                                  //s$Font="bahij";
-                                  $text.="font-size:".$size."px; font-family:$Font;' >"."\n";
-                                  }
-                             
-                                  if($color){ $text.= "<span  style='"."color:#$color;' >".$kid1."</span>"; }
-                                  else
-                                  {
-                                   
-                                      $text.=$kid1;
-                                      }
-                                  if (str_starts_with($kid1, '{')) {
-                                    
-                                    $text.="</div>";
-                                    $text.=" ";
-                                  
-                                  }
-                                  //////////////////////////////////////////////////////
-                                   if ($kid1==']') {
-                                    $text.="<div class='Title_Box'>";
-                                   
-                              
-                                   $text.="<span  style='" ;
-                                   if($color){ $text.= "color:#$color;"; }
-                                   //s$Font="bahij";
-                                   $text.="font-size:".$size."px;font-family:".$Font.";'>$kid1</span>"."\n";
-                                    
-                                   }
-                                   if ($kid1=='[') {
-                                     $text.="</div>";
-                                     $text.=" ";
-                                   }
-                                  //////////////////////////////////////////////////
-                                    
-                                /*  if (str_starts_with($kid1, 'TB')) {
+
+
+
+              if ($kid2->getName() == "wt") {
+                if ((isset($Rinfo["color"]))) {
+                  $color = $Rinfo["color"];
+                }
+
+                if ((isset($Rinfo["size"]))) {
+                  //echo $kid1."<br>";
+                  $size = $Rinfo["size"];
+                }
+                if ((isset($Rinfo["Font"]))) {
+                  $Font = $Rinfo["Font"];
+                }
+                if ((isset($Rinfo["Bold"]))) {
+                  $Bold = "Bold";
+                }
+                //echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid2</div>";
+
+                  $text.="<span style=color:#".$color.";font-family:".$Font."' >".$kid2."</span>.&nbsp";
+                $color = "";
+                $size = "";
+                $Bold = "";
+                $Font = "";
+              }
+            }
+          }
+        }
+
+        ////////////////////////////////////////
+
+
+        ////////////////////////////////////////
+        foreach ($kid->children() as $kid1) // wrpr contain styles and test here you can find all text and its styles inside this foreach .
+        {
+
+          //echo $kid ->getName()."<br>";
+
+
+
+          //echo "**".$kid1->getName()."<br>";
+          if ($kid1->getName() == "wrPr") { // many styles here color & size
+            $Rinfo = recurse($kid1);
+            //echo "styles"."<br>";
+          }
+
+          if ($kid1->getName() == "wt") {
+
+
+
+            //echo $kid1."<br>";
+            //echo "////////////////////";
+            if ((isset($Rinfo["color"]))) {
+              $color = $Rinfo["color"];
+            }
+
+            if ((isset($Rinfo["size"]))) {
+              //echo $kid1."<br>";
+              $size = $Rinfo["size"];
+            }
+            if ((isset($Rinfo["Font"]))) {
+              $Font = $Rinfo["Font"];
+            }
+            if ((isset($Rinfo["Bold"]))) {
+              $Bold = "Bold";
+            }
+            //&& !(str_starts_with($kid1, 'p'))
+            //if($kid1 !=='.' ){ 
+            //$txt.= $kid1;
+
+            // echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</div>";
+            if (str_starts_with($kid1, 'P')) {
+              if (strchr($kid1, 'C')) {
+                $text .= '<p  align="center"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+              }
+              if (strchr($kid1, 'R')) {
+                $text .= '<p  align="right" ><img src="assets/images/' . $kid1 . '.png" ></p>';
+              }
+
+              //echo $kid1 ."<br>";
+              //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
+
+            }
+            if (!str_starts_with($kid1, 'P') && !str_starts_with($kid1, 'N')) 
+            {
+              ////////////////////////////////////////////////////
+              if ($color) {
+                $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 ."&nbsp". "</span>";
+              } else {
+                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH');
+                $text .="<span >".str_replace($vowels, '', $kid1)."</span>";
+              }
+
+              if (str_starts_with($kid1, 'HB')) {
+                $data = " ";
+                $text .= "<div class='Header_Box' ";
+
+                $text .= "style='";
+                if ($color) {
+                  $data .= "color:#$color;";
+                }
+                //$Font="bahij";
+                $value = str_replace('HB', '', $kid1);
+
+                //$value;
+
+                $text .= "font-family:" . $Font . ";'>" . $value . "\n";
+              }
+
+              //$text.= $data; 
+
+
+
+
+
+              if (str_starts_with($kid1, 'EH')) {
+               
+                $text .= "</div>";
+
+                //  echo  $text."<br>";
+                $data = " ";
+              }
+              //////////////////////////////////////////////////
+              if (str_starts_with($kid1, 'RB')) {
+
+                $text .= "<div class='Reference_Box' ";
+
+                $text .= "style='";
+                //if($color){ $text.= "color:#$color;"; }
+                // $Font="bahij";
+                $text .= "font-size:" . "px;font-family:" . $Font . ";'>" . "\n";
+                $kid1 = str_replace('RB', '', $kid1);
+                if ($color) {
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
+                } else {
+                  $kid1 = str_replace('RB', '', $kid1);
+                  $text .= $kid1;
+                }
+              }
+             
+              ///////////////////////////////////////////////////
+              if (str_starts_with($kid1, 'SB')) {
+
+                $text .= "<div class='Header_Box' ";
+                $text .= " style='";
+                if ($color) {
+                  $text .= "color:#" . $color . ";";
+                }
+                //s$Font="bahij";
+                $text .= "font-family:" . $Font . ";' >" . "\n";
+
+                $kid1 = str_replace($kid1, '', 'SB');
+                if ($color) {
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
+                } else {
+                  $kid1 = str_replace('SB', '', $kid1);
+                  $text .= $kid1;
+                  // echo $kid1."<br>";
+                  // echo $value."--";
+                }
+              }
+              if (str_starts_with($kid1, 'ES')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
+              //////////////////////////////////////////////////////
+              if ($kid1 == 'TB') {
+                $text .= "<div class='Title_Box'>";
+
+                $kid1 = str_replace('TB', '', $kid1);
+                $text .= "<span  style='";
+                if ($color) {
+                  $text .= "color:#" . $color . ";";
+                }
+                //s$Font="bahij";
+                $text .= "font-size:"  . "px;font-family:" . $Font . ";'>" . $kid1 . "</span>" . "\n";
+              }
+              if ($kid1 == 'ET') {
+                $text .= "</div>";
+                $text .= " ";
+              }
+
+               if (str_starts_with($kid1, 'ER')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
+              //////////////////////////////////////////////////
+
+              /*  if (str_starts_with($kid1, 'TB')) {
                                     
                       
                                     $text.="<div class='Title_Box' >";
@@ -290,34 +291,31 @@ class SectorController extends Controller
 
 
 
-                                  /*$text.="<div  style='" ;
+              /*$text.="<div  style='" ;
                                   if($color){ $text.= "color:#$color;"; }
                                   //s$Font="bahij";
                                   $text.="font-size:".$size."px;font-family:$Font;'>$kid1</div>"."\n";
           
 */
+                                
 
 
 
 
+              $color = "";
+              if ($kid1 == '.' || $kid1 == '،') {
+                $text .= "<br>";
+              }
 
-                                  $color="";
-                                    if ($kid1=='.'||$kid1=='،')
-                                    {
-                                      $text.="<br>";
-                                    
-                                    } 
-    
-                                    if ($kid1=='N')
-                                    {
-                                     
-                                    $page++;
-                                    break;
-                                    } 
+              if ($kid1 == 'N') {
 
-                                                                  ///////////////////////////////start of header ///////////////////////////
-     
-      $pageTop=' 
+                $page++;
+                break;
+              }
+
+              ///////////////////////////////start of header ///////////////////////////
+
+              $pageTop = ' 
       <!doctype html>
       <html dir="rtl">
 
@@ -576,29 +574,26 @@ class SectorController extends Controller
                                     <div class="TextArea content-rd">
              
         ';
-   /////////////////////////////// end of header   //////////////////////////
+              /////////////////////////////// end of header   //////////////////////////
 
 
-///////////////////////////////begin of footer ////////////////////////////////
+              ///////////////////////////////begin of footer ////////////////////////////////
 
-$next=$count+1;
- 
-$bef="LeftArrow";
-$nxt="RightArrow";
-if($count==1)
-{  
-$num=$count;
-$bef="LeftArrow off ";
-}
-else
-{   $num=$count-1;
-     
-}
- 
+              $next = $count + 1;
 
- 
+              $bef = "LeftArrow";
+              $nxt = "RightArrow";
+              if ($count == 1) {
+                $num = $count;
+                $bef = "LeftArrow off ";
+              } else {
+                $num = $count - 1;
+              }
 
-$tools='
+
+
+
+              $tools = '
         </div> 
         </div> 
         <div class="table-cell MainScr_med_left"></div> 
@@ -607,18 +602,18 @@ $tools='
         <div class="table-cell MainScr_bot_right"></div> 
         <div class="table-cell MainScr_bot_med"> 
 
-        <a href="01-01-01-0'.$num.'.html" class="'.$bef.'" title="السابق"></a>
+        <a href="01-01-01-0' . $num . '.html" class="' . $bef . '" title="السابق"></a>
 
          <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-         <a href="01-01-01-0'.$next.'.html" class="'.$nxt.'" title="التالي"></a> 
+         <a href="01-01-01-0' . $next . '.html" class="' . $nxt . '" title="التالي"></a> 
 
          <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
          <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
-         <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="bahij" class="fontDefualt" title="إستعاد حجم الخط"> 
+         <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="fontDefualt" class="fontDefualt" title="إستعاد حجم الخط"> 
          <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontMins.png" id="decreaseFont" class="fontMins " title="تصغير حجم الخط"> 
         </div>';
-        $footer='
+              $footer = '
         <div class="table-cell MainScr_bot_left"></div>
         </div>
       </div>
@@ -1293,46 +1288,40 @@ $("body").removeClass("in-fullscreen");
 
 
 
-/////////////////////////////end of footer ////////////////////////////////////////
-                                }   
-                                if ($kid1=='N') {
-                                  $count++;
-                                  $text = $pageTop.$text.$tools.$footer;
-                                  fwrite($myfile,$text);
-                                          $color="";
-                                          $size="";
-                                          $Bold="";
-                                          $Font="";
-                                          $text="";
-                                          $page++;
+              /////////////////////////////end of footer ////////////////////////////////////////
+           } }
+            if ($kid1 == 'N') {
+              $count++;
+              $text = $pageTop . $text . $tools . $footer;
+              fwrite($myfile, $text);
+              $color = "";
+              $size = "";
+              $Bold = "";
+              $Font = "";
+              $text = "";
+              $page++;
+            }
+            if ($kid1 == 'EB') {
 
-                                }    
-                                if ($kid1=='EB')
-                                {
-                                 
-                                $page++;
-                                $text.="<br>";
-                                } 
+              $page++;
+              $text .= "<br>";
+            }
 
-                                          
-                                 $myfile = fopen("sectors/01-01-01-0".$count.".html", "w") or die("Unable to open file!");
-                                 
-                     }  
-                    }
-           
-           }
-           
+
+            $myfile = fopen("sectors/01-01-01-0" . $count . ".html", "w") or die("Unable to open file!");
           }
-   //  echo $count."<br>";
-   if($page<$count-1){
-    $text = $pageTop.$text.$tools.$footer;
-   }
-else{
-echo $count;
-$next=$count;
-////////////////////////
+        }
+      }
+    
+    //  echo $count."<br>";
+    if ($page < $count - 1) {
+      $text = $pageTop . $text . $tools . $footer;
+    } else {
+      echo $count;
+      $next = $count;
+      ////////////////////////
 
-$tools='
+      $tools = '
       </div> 
       </div> 
       <div class="table-cell MainScr_med_left"></div> 
@@ -1341,30 +1330,24 @@ $tools='
       <div class="table-cell MainScr_bot_right"></div> 
       <div class="table-cell MainScr_bot_med"> 
 
-      <a href="01-01-01-0'.$num.'.html" class='.$bef.' title="السابق"></a>
+      <a href="01-01-01-0' . $num . '.html" class=' . $bef . ' title="السابق"></a>
 
        <a href="01-01-01-01.html" class="HomeArrow" title="المقدمة"></a> 
 
-       <a href="01-01-01-0'.$next.'.html" class="RightArrow off" title="التالي"></a> 
+       <a href="01-01-01-0' . $next . '.html" class="RightArrow off" title="التالي"></a> 
 
        <a href="javascript:void()" class="centerArrow " title="جميع الحقوق محفوظة دار الإفتاء المصرية"></a> 
        <img id="increaseFont" src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/FontPlus.png" class="FontPlus" title="تكبير حجم الخط"> 
        <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="bahij" class="fontDefualt" title="إستعاد حجم الخط"> 
        <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontMins.png" id="decreaseFont" class="fontMins " title="تصغير حجم الخط"> 
       </div>';
-////////////////////////
-$text = $pageTop.$text.$tools.$footer;
-}
-       //$nxt="LeftArrow  off tooltipstered";
-   
-       
-      fwrite($myfile,$text);
-      fclose($myfile); 
-  
-      }
-   
-
-
-
+      ////////////////////////
+      $text = $pageTop . $text . $tools . $footer;
     }
+    //$nxt="LeftArrow  off tooltipstered";
 
+
+    fwrite($myfile, $text);
+    fclose($myfile);
+  }
+}

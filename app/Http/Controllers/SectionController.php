@@ -1212,7 +1212,7 @@ $next=$count;
          <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontDefualt.png" id="bahij" class="fontDefualt" title="إستعاد حجم الخط"> 
          <img src="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/images/templates/Temp-General/fontMins.png" id="decreaseFont" class="fontMins " title="تصغير حجم الخط"> 
         </div>';
- ////////////////////////
+ //////////////////////////
 $text = $pageTop.$text.$tools.$footer;
 }
          //$nxt="LeftArrow  off tooltipstered";

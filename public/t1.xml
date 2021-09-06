@@ -261,7 +261,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>/</wt>
+                            <wt>R</wt>
                         </wr>
                         <wr wrsidR="004972EA" wrsidRPr="00AC5C20">
                             <wrPr>
@@ -752,8 +752,9 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>/</wt>
+                            <wt>E</wt>
                         </wr>
+                        
                     </wp>
                     <wp wrsidR="00AC5C20" wrsidRDefault="00AC5C20" wrsidP="00AC5C20">
                         <wpPr>

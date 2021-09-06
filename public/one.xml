@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
                 <wbody>
                     <wp wrsidR="00F4261C" wrsidRPr="00C06FE3" wrsidRDefault="004972EA" wrsidP="00F4261C">
                         <wpPr>
@@ -11,8 +11,6 @@
                                 <wszCs wval="44" />
                             </wrPr>
                         </wpPr>
-                        <wbookmarkStart wid="0" wname="_GoBack" />
-                        <wbookmarkEnd wid="0" />
                         <wr wrsidRPr="000A6BE4">
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
@@ -64,7 +62,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>EH</wt>
+                            <wt>E</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00F4261C" wrsidRPr="00C06FE3" wrsidRDefault="00F4261C" wrsidP="00F4261C">
@@ -76,6 +74,8 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                         </wpPr>
+                        <wbookmarkStart wid="0" wname="_GoBack" />
+                        <wbookmarkEnd wid="0" />
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="00F12599" wrsidP="004C5272">
                         <wpPr>
@@ -136,7 +136,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="00522483">
                             <wrPr>
@@ -245,7 +245,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="00F12599">
                             <wrPr>
@@ -299,7 +299,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt xmlspace="preserve">RB</wt>
+                            <wt xmlspace="preserve"> RB</wt>
                         </wr>
                         <wr wrsidRPr="00AC5C20">
                             <wrPr>
@@ -790,7 +790,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ER</wt>
+                            <wt>E</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00AC5C20" wrsidRDefault="00AC5C20" wrsidP="00AC5C20">
@@ -888,7 +888,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1024,7 +1024,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1293,7 +1293,7 @@
                             <wt>في حق المرأة، وتمامه ما مر في الحيض.</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="00765FC1" wrsidRDefault="00575D7D" wrsidP="00765FC1">
+                    <wp wrsidR="00765FC1" wrsidRDefault="00765FC1" wrsidP="00765FC1">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -1306,14 +1306,6 @@
                                 <wszCs wval="28" />
                             </wrPr>
                         </wpPr>
-                        <wr>
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
-                        </wr>
                     </wp>
                     <wp wrsidR="00F67311" wrsidRPr="00765FC1" wrsidRDefault="00765FC1" wrsidP="00765FC1">
                         <wpPr>
@@ -1431,7 +1423,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1533,7 +1525,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1729,7 +1721,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1886,7 +1878,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ER</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1920,7 +1912,7 @@
                             <wt xmlspace="preserve"></wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="00667606" wrsidRDefault="00575D7D" wrsidP="00667606">
+                    <wp wrsidR="00667606" wrsidRDefault="00667606" wrsidP="00667606">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -1934,14 +1926,6 @@
                                 <wrtl />
                             </wrPr>
                         </wpPr>
-                        <wr>
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
-                        </wr>
                     </wp>
                     <wp wrsidR="00667606" wrsidRPr="00495030" wrsidRDefault="00667606" wrsidP="00495030">
                         <wpPr>
@@ -2038,7 +2022,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB </wt>
+                            <wt xmlspace="preserve">SB </wt>
                         </wr>
                         <wr wrsidRPr="007319A0">
                             <wrPr>
@@ -2106,7 +2090,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -2620,7 +2604,7 @@
                             <wt>ويفترض على من رأى الهلال أن يؤدي الشهادة إذا لم يثبت دونه، حتى يجب على المخدَّرة وإن لم يأذن لها زوجها.</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="00E135BD" wrsidRPr="005F004D" wrsidRDefault="00575D7D" wrsidP="00E135BD">
+                    <wp wrsidR="007319A0" wrsidRDefault="007319A0" wrsidP="007319A0">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -2634,14 +2618,21 @@
                                 <wrtl />
                             </wrPr>
                         </wpPr>
-                        <wr>
+                    </wp>
+                    <wp wrsidR="00E135BD" wrsidRPr="005F004D" wrsidRDefault="00E135BD" wrsidP="00E135BD">
+                        <wpPr>
+                            <wpStyle wval="NormalWeb" />
+                            <wwidowControl wval="0" />
+                            <wbidi />
+                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
+                            <wjc wval="lowKashida" />
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
-                            <wt>N</wt>
-                        </wr>
+                        </wpPr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="00032095" wrsidRDefault="00032095" wrsidP="00032095">
                         <wpPr>
@@ -3058,7 +3049,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -3180,7 +3171,17 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wt>ولا يفطر آخر الشهر إلا مع الناس احتياطًا، ولو أفطر لا كفارة عليه عملًا باعتقاده</wt>
+                            <wt xmlspace="preserve">ولا يفطر آخر الشهر إلا مع الناس احتياطًا، ولو أفطر لا كفارة عليه عملًا </wt>
+                        </wr>
+                        <wr wrsidRPr="005F004D">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wlastRenderedPageBreak />
+                            <wt>باعتقاده</wt>
                         </wr>
                         <wr wrsidRPr="005F004D">
                             <wrPr>
@@ -3214,7 +3215,6 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wlastRenderedPageBreak />
                             <wt xmlspace="preserve">الحكم إذا </wt>
                         </wr>
                         <wr wrsidRPr="00032095">
@@ -3306,7 +3306,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -3412,7 +3412,7 @@
                             <wt>، وهذا لأن</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="004C5272" wrsidRPr="009B24FD" wrsidRDefault="00AB1DF6" wrsidP="009B24FD">
+                    <wp wrsidR="004C5272" wrsidRPr="009B24FD" wrsidRDefault="005F63DF" wrsidP="009B24FD">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -3589,7 +3589,7 @@
                             <wt>.</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="004C5272" wrsidRDefault="004C5272" wrsidP="00D23920">
+                    <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="00D23920">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -3600,6 +3600,7 @@
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
                         </wpPr>
                         <wr wrsidRPr="005F004D">
@@ -3637,29 +3638,6 @@
                                 <wszCs wval="28" />
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
-                        </wr>
-                    </wp>
-                    <wp wrsidR="00575D7D" wrsidRPr="005F004D" wrsidRDefault="00575D7D" wrsidP="00575D7D">
-                        <wpPr>
-                            <wpStyle wval="NormalWeb" />
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
-                            <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wrtl />
-                            </wrPr>
-                        </wpPr>
-                        <wr>
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="004C5272">
@@ -4071,7 +4049,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -4139,7 +4117,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -4518,7 +4496,7 @@
                             <wt>، وإن كانت بعيدة بحيث تختلف لا يلزم أحد المِصرين حكم الآخر.</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="00575D7D" wrsidRDefault="004C5272" wrsidP="00285893">
+                    <wp wrsidR="004C5272" wrsidRDefault="004C5272" wrsidP="00285893">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -4621,38 +4599,6 @@
                             <wt xmlspace="preserve"></wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="004C5272" wrsidRDefault="00575D7D" wrsidP="00575D7D">
-                        <wpPr>
-                            <wpStyle wval="NormalWeb" />
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
-                            <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wlang wbidi="ar-EG" />
-                            </wrPr>
-                        </wpPr>
-                        <wr>
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
-                        </wr>
-                        <wr wrsidR="00285893">
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wlang wbidi="ar-EG" />
-                            </wrPr>
-                            <wt xmlspace="preserve"></wt>
-                        </wr>
-                    </wp>
                     <wp wrsidR="00F56931" wrsidRDefault="00F56931" wrsidP="00F56931">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
@@ -4674,7 +4620,7 @@
                                 <wszCs wval="28" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">RB</wt>
+                            <wt xmlspace="preserve"> RB</wt>
                         </wr>
                         <wr wrsidRPr="00495030">
                             <wrPr>
@@ -4784,7 +4730,14 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                    
+                        <wr wrsidR="002F2376" wrsidRPr="002F2376">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>E</wt>
+                        </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
@@ -4871,16 +4824,8 @@
                             </wrPr>
                             <wt>.</wt>
                         </wr>
-                        <wr wrsidR="002F2376" wrsidRPr="002F2376">
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>ER</wt>
-                        </wr>
                     </wp>
-                    <wp wrsidR="00032095" wrsidRDefault="00F56931" wrsidP="00F56931">
+                    <wp wrsidR="00032095" wrsidRDefault="00F56931" wrsidP="002139BD">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -4944,7 +4889,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -5033,7 +4978,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt xmlspace="preserve">RB</wt>
+                            <wt xmlspace="preserve"> RB</wt>
                         </wr>
                         <wr wrsidRPr="005F004D">
                             <wrPr>
@@ -5118,7 +5063,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ER</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="00522483">
                             <wrPr>
@@ -5281,19 +5226,7 @@
                                     <wszCs wval="28" />
                                     <wrtl />
                                 </wrPr>
-                                <wt xmlspace="preserve">لا يصام اليوم الذي يشك </wt>
-                            </wr>
-                            <wr wrsidR="00B5049B" wrsidRPr="00367EB1">
-                                <wrPr>
-                                    <wrStyle wval="Hyperlink" />
-                                    <wrFonts wascii="Almarai" weastAsiaTheme="majorEastAsia" whAnsi="Almarai" wcs="Almarai" />
-                                    <wcolor wval="0070C0" />
-                                    <wsz wval="28" />
-                                    <wszCs wval="28" />
-                                    <wrtl />
-                                </wrPr>
-                                <wlastRenderedPageBreak />
-                                <wt xmlspace="preserve">فيه أنه من </wt>
+                                <wt xmlspace="preserve">لا يصام اليوم الذي يشك فيه أنه من </wt>
                             </wr>
                         </whyperlink>
                         <whyperlink rid="rId40" wanchor="لا_يصام_اليوم_الذي_يشك_فيه_أنه_من_رمضان_إلا_تطوعا__" whistory="1">
@@ -5326,7 +5259,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ER</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -5358,6 +5291,7 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
+                            <wlastRenderedPageBreak />
                             <wt xmlspace="preserve"> (ب) ولأنه تشبه بأهل الكتاب لأنهم زادوا في مدة صومهم.</wt>
                         </wr>
                     </wp>
@@ -5492,7 +5426,7 @@
                             </wrPr>
                         </wpPr>
                     </wp>
-                    <wp wrsidR="004C5272" wrsidRDefault="004C5272" wrsidP="00495030">
+                    <wp wrsidR="004C5272" wrsidRPr="00367EB1" wrsidRDefault="004C5272" wrsidP="00495030">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -5504,6 +5438,7 @@
                                 <wcolor wval="0070C0" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
                         </wpPr>
                         <wr wrsidRPr="00495030">
@@ -5573,29 +5508,6 @@
                                 <wrtl />
                             </wrPr>
                             <wt xmlspace="preserve"> حديث النهي عن صوم يوم الشك.</wt>
-                        </wr>
-                    </wp>
-                    <wp wrsidR="00575D7D" wrsidRPr="00575D7D" wrsidRDefault="00575D7D" wrsidP="00575D7D">
-                        <wpPr>
-                            <wpStyle wval="NormalWeb" />
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
-                            <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wrtl />
-                            </wrPr>
-                        </wpPr>
-                        <wr wrsidRPr="00575D7D">
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="004C5272">
@@ -5686,10 +5598,32 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>P-01-T-R</wt>
+                            <wt>P-01-</wt>
                         </wr>
-                     
-                        
+                        <wr wrsidR="00765FC1">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>T</wt>
+                        </wr>
+                        <wr wrsidR="00765FC1" wrsidRPr="00765FC1">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>-</wt>
+                        </wr>
+                        <wr wrsidR="00765FC1">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>R</wt>
+                        </wr>
                         <wr>
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" whint="cs" />
@@ -5955,7 +5889,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ED</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="00522483">
                             <wrPr>
@@ -6118,7 +6052,6 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wlastRenderedPageBreak />
                             <wt xmlspace="preserve">وكذا إذا صام ثلاثة أيام </wt>
                         </wr>
                         <wr wrsidR="00367EB1">
@@ -6202,6 +6135,7 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
+                            <wlastRenderedPageBreak />
                             <wt xmlspace="preserve">وقد قيل الصوم أفضل اقتداء بعلي </wt>
                         </wr>
                         <wr wrsidRPr="00BA778B">
@@ -6473,7 +6407,7 @@
                             <wt>.</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="004C5272" wrsidRDefault="004C5272" wrsidP="00285893">
+                    <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="00285893">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -6482,9 +6416,9 @@
                             <wjc wval="lowKashida" />
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wcolor wval="00B050" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
                         </wpPr>
                         <wr wrsidRPr="00495030">
@@ -6524,29 +6458,6 @@
                                 <wszCs wval="28" />
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
-                        </wr>
-                    </wp>
-                    <wp wrsidR="00575D7D" wrsidRPr="005F004D" wrsidRDefault="00575D7D" wrsidP="00575D7D">
-                        <wpPr>
-                            <wpStyle wval="NormalWeb" />
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
-                            <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wrtl />
-                            </wrPr>
-                        </wpPr>
-                        <wr wrsidRPr="00575D7D">
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt>N</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="004C5272">
@@ -6626,10 +6537,32 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>P-01-M-R</wt>
+                            <wt>P-01-</wt>
                         </wr>
-                      
-                     
+                        <wr wrsidR="003B5F6D">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>M</wt>
+                        </wr>
+                        <wr wrsidR="003B5F6D" wrsidRPr="003B5F6D">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>-</wt>
+                        </wr>
+                        <wr wrsidR="003B5F6D">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                            </wrPr>
+                            <wt>R</wt>
+                        </wr>
                         <wr>
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" whint="cs" />
@@ -6744,7 +6677,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ET</wt>
+                            <wt>E</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="008F200D" wrsidRPr="00032095" wrsidRDefault="008F200D" wrsidP="008F200D">
@@ -6776,16 +6709,15 @@
                                 <wrtl />
                             </wrPr>
                         </wpPr>
-                        <wr>
+                        <wr wrsidRPr="002139BD">
                             <wrPr>
-                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
-                                <wcolor wval="0070C0" />
+                                <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="000A6BE4">
+                        <wr wrsidR="008F200D" wrsidRPr="002139BD">
                             <wrPr>
                                 <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
@@ -6803,7 +6735,16 @@
                             </wrPr>
                             <wt>ويلتمس</wt>
                         </wr>
-                         
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6814,7 +6755,16 @@
                             </wrPr>
                             <wt>هلال</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6825,7 +6775,16 @@
                             </wrPr>
                             <wt>شوال</wt>
                         </wr>
-                      
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6836,7 +6795,16 @@
                             </wrPr>
                             <wt>في</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6847,7 +6815,16 @@
                             </wrPr>
                             <wt>التاسع</wt>
                         </wr>
-                        
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6858,7 +6835,16 @@
                             </wrPr>
                             <wt>والعشرين</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6869,7 +6855,16 @@
                             </wrPr>
                             <wt>من</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6880,7 +6875,16 @@
                             </wrPr>
                             <wt>رمضان،</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6891,7 +6895,16 @@
                             </wrPr>
                             <wt>فمن</wt>
                         </wr>
-                         
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6902,7 +6915,16 @@
                             </wrPr>
                             <wt>رآه</wt>
                         </wr>
-                       
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6913,7 +6935,16 @@
                             </wrPr>
                             <wt>وحده</wt>
                         </wr>
-                      
+                        <wr wrsidR="008F200D" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
@@ -6924,10 +6955,19 @@
                             </wrPr>
                             <wt>لا</wt>
                         </wr>
-                        
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
-                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
+                        <wr wrsidR="002139BD" wrsidRPr="001040F8">
+                            <wrPr>
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="cs" />
                                 <wcolor wval="0070C0" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
@@ -6935,18 +6975,17 @@
                             </wrPr>
                             <wt>يفطر</wt>
                         </wr>
-                    
-                        <wr wrsidR="002F2376" wrsidRPr="002F2376">
+                        <wr wrsidR="002139BD" wrsidRPr="002139BD">
                             <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt xmlspace="preserve"> E</wt>
                         </wr>
-                        <wr wrsidR="002F2376">
+                        <wr wrsidR="002F2376" wrsidRPr="002139BD">
                             <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
@@ -7173,7 +7212,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -7269,7 +7308,7 @@
                             </wrPr>
                         </wpPr>
                     </wp>
-                    <wp wrsidR="0074585A" wrsidRDefault="008F200D" wrsidP="00575D7D">
+                    <wp wrsidR="008F200D" wrsidRPr="00F7587A" wrsidRDefault="002139BD" wrsidP="008F200D">
                         <wpPr>
                             <wwidowControl wval="0" />
                             <wbidi />
@@ -7277,12 +7316,22 @@
                             <wind wleft="-51" />
                             <wjc wval="lowKashida" />
                             <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
+                                <wcolor wval="00B050" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
                         </wpPr>
-                        <wr wrsidRPr="000A6BE4">
+                        <wr>
+                            <wrPr>
+                                <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" whint="cs" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt xmlspace="preserve"></wt>
+                        </wr>
+                        <wr wrsidR="008F200D" wrsidRPr="000A6BE4">
                             <wrPr>
                                 <wrFonts wascii="Almarai" weastAsia="Times New Roman" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
@@ -7290,7 +7339,7 @@
                             </wrPr>
                             <wt>SB</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7300,7 +7349,7 @@
                             </wrPr>
                             <wt>فإن</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7310,7 +7359,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7320,7 +7369,7 @@
                             </wrPr>
                             <wt>كان</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7330,7 +7379,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7340,7 +7389,7 @@
                             </wrPr>
                             <wt>بالسماء</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7350,7 +7399,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7360,7 +7409,7 @@
                             </wrPr>
                             <wt>علة</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7370,7 +7419,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7380,7 +7429,7 @@
                             </wrPr>
                             <wt>قبل</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7390,7 +7439,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7400,7 +7449,7 @@
                             </wrPr>
                             <wt>شهادة</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7410,7 +7459,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7420,7 +7469,7 @@
                             </wrPr>
                             <wt>رجلين</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7430,7 +7479,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7440,7 +7489,7 @@
                             </wrPr>
                             <wt>أو</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7450,7 +7499,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7460,7 +7509,7 @@
                             </wrPr>
                             <wt>رجل</wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7470,7 +7519,7 @@
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
                         </wr>
-                        <wr wrsidRPr="0074585A">
+                        <wr wrsidR="008F200D" wrsidRPr="0074585A">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" whint="eastAsia" />
                                 <wcolor wval="0070C0" />
@@ -7480,7 +7529,7 @@
                             </wrPr>
                             <wt>وامرأتين</wt>
                         </wr>
-                        <wr>
+                        <wr wrsidR="008F200D">
                             <wrPr>
                                 <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
                                 <wcolor wval="0070C0" />
@@ -7495,7 +7544,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -7506,23 +7555,7 @@
                             <wt xmlspace="preserve"></wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="00575D7D" wrsidRPr="00575D7D" wrsidRDefault="00575D7D" wrsidP="00575D7D">
-                        <wpPr>
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wafter="0" wline="380" wlineRule="exact" />
-                            <wind wleft="-51" />
-                            <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
-                                <wcolor wval="00B050" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                                <wrtl />
-                            </wrPr>
-                        </wpPr>
-                    </wp>
-                    <wp wrsidR="0074585A" wrsidRDefault="00575D7D" wrsidP="00575D7D">
+                    <wp wrsidR="0074585A" wrsidRPr="008F200D" wrsidRDefault="0074585A" wrsidP="0074585A">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -7533,18 +7566,26 @@
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
                         </wpPr>
-                        <wr>
+                    </wp>
+                    <wp wrsidR="0074585A" wrsidRPr="00BA778B" wrsidRDefault="0074585A" wrsidP="0074585A">
+                        <wpPr>
+                            <wpStyle wval="NormalWeb" />
+                            <wwidowControl wval="0" />
+                            <wbidi />
+                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
+                            <wjc wval="lowKashida" />
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
                             </wrPr>
-                            <wt>N</wt>
-                        </wr>
+                        </wpPr>
                     </wp>
-                    <wp wrsidR="00575D7D" wrsidRDefault="00575D7D" wrsidP="00575D7D">
+                    <wp wrsidR="0074585A" wrsidRDefault="0074585A" wrsidP="004C5272">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -7602,7 +7643,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt xmlspace="preserve">  SB</wt>
                         </wr>
                         <wr wrsidRPr="0074585A">
                             <wrPr>
@@ -7750,7 +7791,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -7989,7 +8030,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>E</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -8035,7 +8076,6 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wlastRenderedPageBreak />
                             <wt>لما يتعلق به من حقوق الآدمي من الأضاحي وغيره.</wt>
                         </wr>
                     </wp>
@@ -8163,6 +8203,7 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
+                            <wlastRenderedPageBreak />
                             <wt xmlspace="preserve">(2)  </wt>
                         </wr>
                         <wr wrsidRPr="00BA778B">
@@ -8510,4 +8551,4 @@
                         <wdocGrid wlinePitch="360" />
                     </wsectPr>
                 </wbody>
-          
+             
