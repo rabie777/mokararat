@@ -274,10 +274,42 @@ p .عناصر{
 	min-width: auto;
     max-width: 50%;
     width: fit-content;
-    height: fit-content;
+    height:auto;
+	min-height:30px;
+	height:auto !important;      
+	height:30px;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 49px;
     padding-left: 50px;
     padding-right: 52px;
+}
+.Saying_Box{
+	background:url(images/sbb_bg_right.png)center right no-repeat,url(images/sb_bg_left.png)center left no-repeat,url(images/sb_bg_center.png)center center repeat-x ;
+	min-width: 345px;
+    max-width: 60%;
+    width: fit-content;
+    
+	min-height:150px;
+	height:auto !important;      
+	  
+    padding-top: 67px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 120px;
+}
+.Title_Box
+{
+	background:url(./images/tb_bg_right.png) center right no-repeat,url(./images/tb_bg_left.png) center left no-repeat, url(./images/tb_bg.png) center center repeat-x  ;
+	min-width: 230px;
+    max-width: 50%;
+	padding-bottom: 15px;
+    width: fit-content;
+    height:auto;
+	min-height:30px;
+	height:auto !important;      
+	height:30px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 33px;
 }

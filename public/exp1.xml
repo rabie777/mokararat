@@ -334,14 +334,15 @@
                             </wrPr>
                             <wt>[البقرة 187]</wt>
                         </wr>
-                        <wr wrsidRPr="00AC5C20">
+                        <wr wrsidRPr="00FB7D09">
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wcolor wval="323E4F" wthemeColor="text2" wthemeShade="BF" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">. </wt>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004972EA" wrsidRPr="00AC5C20" wrsidRDefault="004972EA" wrsidP="004972EA">
@@ -367,15 +368,7 @@
                             </wrPr>
                             <wt>قال أبو عبيد الخيط الأبيض الصبح الصادق، أباح الأكل والشرب إلى طلوع الفجر فيحرم عنده أي في وقت طلوع الفجر</wt>
                         </wr>
-                        <wr wrsidRPr="00AC5C20">
-                            <wrPr>
-                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
-                                <wcolor wval="323E4F" wthemeColor="text2" wthemeShade="BF" />
-                                <wsz wval="28" />
-                                <wszCs wval="28" />
-                            </wrPr>
-                            <wt xmlspace="preserve">. </wt>
-                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004972EA" wrsidRPr="00AC5C20" wrsidRDefault="004972EA" wrsidP="004972EA">
                         <wpPr>
@@ -396,6 +389,16 @@
                                 <wrtl />
                             </wrPr>
                             <wt xmlspace="preserve">وأما آخره. فلقوله عليه الصلاة والسلام </wt>
+                        </wr>
+                        <wr wrsidRPr="00FB7D09">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                         <wr wrsidRPr="00AC5C20">
                             <wrPr>
@@ -2340,23 +2343,20 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">فإن أكملوا ثلاثين ولم يروا الهلال؟ </wt>
+                            <wt xmlspace="preserve">فإن أكملوا ثلاثين ولم يروا الهلال </wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="00495030" wrsidRDefault="004C5272" wrsidP="004C5272">
-                        <wpPr>
-                            <wpStyle wval="NormalWeb" />
-                            <wwidowControl wval="0" />
-                            <wbidi />
-                            <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
-                            <wjc wval="lowKashida" />
+                        <wr wrsidRPr="00FB7D09">
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                                 <wrtl />
+                                <wlang wbidi="ar-EG" />
                             </wrPr>
-                        </wpPr>
+                            <wt>؟</wt>
+                        </wr>
                         <wr wrsidRPr="00495030">
                             <wrPr>
                                 <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
@@ -2418,8 +2418,9 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">. </wt>
+                            <wt>.</wt>
                         </wr>
+                        
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="00495030" wrsidRDefault="004C5272" wrsidP="004C5272">
                         <wpPr>
@@ -2509,6 +2510,17 @@
                             </wrPr>
                             <wt>أنهم لا يفطرون أخذًا بالاحتياط.</wt>
                         </wr>
+                        <wr wrsidRPr="00FB7D09">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="007319A0" wrsidRDefault="004C5272" wrsidP="007319A0">
                         <wpPr>
@@ -7679,13 +7691,16 @@
                             <wbidi />
                             <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
                             <wjc wval="lowKashida" />
-                            <wrPr>
-                                <wrFonts wascii="Almarai Bold" whAnsi="Almarai Bold" wcs="Almarai Bold" />
-                                <wcolor wval="00B050" />
-                                <wsz wval="32" />
-                                <wszCs wval="32" />
-                                <wrtl />
-                            </wrPr>
+                            <wr wrsidRPr="00FB7D09">
+                                <wrPr>
+                                    <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                    <wsz wval="28" />
+                                    <wszCs wval="28" />
+                                    <wrtl />
+                                    <wlang wbidi="ar-EG" />
+                                </wrPr>
+                                <wt>،</wt>
+                            </wr>
                         </wpPr>
                         <wr wrsidRPr="00032095">
                             <wrPr>
@@ -7771,8 +7786,19 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wt>أو بعده فهو لليلة الآتية.</wt>
+                            <wt>أو بعده فهو لليلة الآتية</wt>
                         </wr>
+                        <wr wrsidRPr="00FB7D09">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004C5272" wrsidRDefault="004C5272" wrsidP="004C5272">
                         <wpPr>
@@ -7911,6 +7937,17 @@
                             </wrPr>
                             <wt>يروى القول الثاني عن عمر وعائشة- رضي الله عنهما.</wt>
                         </wr>
+                        <wr wrsidRPr="00FB7D09">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="00BA778B" wrsidRDefault="004C5272" wrsidP="004C5272">
                         <wpPr>
@@ -8055,6 +8092,17 @@
                             </wrPr>
                             <wt>لكبره لا لكونه لليلة الماضية، والثابت بيقين لا يزول بالشك.</wt>
                         </wr>
+                        <wr wrsidRPr="00FB7D09">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        
                     </wp>
                     <wp wrsidR="00A2260D" wrsidRPr="00522483" wrsidRDefault="004C5272" wrsidP="00522483">
                         <wpPr>

@@ -85,7 +85,8 @@ class RabieController extends Controller
                   $size = $Rinfo["size"];
                 }
                 if ((isset($Rinfo["Font"]))) {
-                  $Font = $Rinfo["Font"];
+                  //$Font = $Rinfo["Font"];
+                 // $Font="bahij";
                 }
                 if ((isset($Rinfo["Bold"]))) {
                   $Bold = "Bold";
@@ -94,6 +95,7 @@ class RabieController extends Controller
                 }
                 
 else{
+  //echo $size;
                   $text.="<span style=color:#".$color.";font-weight:".$Bold.";font-family:".$Font."' >".$kid2."</span>.&nbsp";}
                 $color = "";
                 $size = "";
@@ -136,7 +138,9 @@ else{
               $size = $Rinfo["size"];
             }
             if ((isset($Rinfo["Font"]))) {
+              
               $Font = $Rinfo["Font"];
+              //$Font="bahij";
             }
             if ((isset($Rinfo["Bold"]))) {
               $Bold = "Bold";
@@ -254,7 +258,7 @@ else{
 
                 //$value;
 
-                $text .= "font-family:" . $Font . ";'>" . $value . "\n";
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . $value . "\n";
               }
 
               //$text.= $data; 
@@ -273,7 +277,7 @@ else{
                 $text .= "style='";
                 //if($color){ $text.= "color:#$color;"; }
                 //$Font="QCF_P029";
-                $text .= "font-size:" . "px;font-family:" . $Font . ";'>" . "\n";
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . "\n";
                 $kid1 = str_replace('RB', '', $kid1);
                 if ($color) {
                   $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
@@ -290,13 +294,14 @@ else{
               ///////////////////////////////////////////////////
               if (str_starts_with($kid1, 'SB')) {
 
-                $text .= "<div class='Header_Box' ";
+                $text .= "<div class='Saying_Box' ";
                 $text .= " style='";
                 if ($color) {
-                  $text .= "color:#" . $color . ";";
+                  $text .= "color:#" . $color . "; ";
                 }
                 //s$Font="bahij";
-                $text .= "font-family:" . $Font . ";' >" . "\n";
+                 
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";' >" . "\n";
 
                 $kid1 = str_replace($kid1, '', 'SB');
                 if ($color) {
@@ -315,7 +320,7 @@ else{
               }
               //////////////////////////////////////////////////////
               if (str_starts_with($kid1,'TB')) {
-                $text .= "<div class='Title_Box'>";
+                $text .= "<div class='Title_Box' style='font-size:".$size."px;'>";
 
                 $kid1 = str_replace('TB', '', $kid1);
                 $text .= "<span  style='";
@@ -323,7 +328,7 @@ else{
                   $text .= "color:#" . $color . ";";
                 }
                 //s$Font="bahij";
-                $text .= "font-size:"  . "px;font-family:" . $Font . ";'>" . $kid1 . "</span>" . "\n";
+                $text .= "font-family:" . $Font . ";'>" . $kid1 . "</span>" . "\n";
               }
              /*  if ( $kid1=='E') {
                 $text .= "</div>";
@@ -349,7 +354,7 @@ else{
 
 
               $color = "";
-              if ($kid1 == '.' || $kid1 == '،') {
+              if ($kid1 == '.' ||$kid1 == '؟') {
                 $text .= "<br>";
               }
 
@@ -493,13 +498,7 @@ else{
           height: 100% !important;
         }
           
-          .Title_Box{
-            background-color: #00ffff;
-            color: black;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-          }
+          
           
         </style>
       </head>
