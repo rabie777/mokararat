@@ -33,6 +33,7 @@
                                 <wrFonts wascii="Almarai ExtraBold" whAnsi="Almarai ExtraBold" wcs="Almarai ExtraBold" />
                                 <wcolor wval="4472C4" wthemeColor="accent5" />
                                 <wsz wval="44" />
+                                <wb/>
                                 <wszCs wval="44" />
                                 <wrtl />
                             </wrPr>
@@ -54,6 +55,7 @@
                                 <wcolor wval="4472C4" wthemeColor="accent5" />
                                 <wsz wval="44" />
                                 <wszCs wval="44" />
+                                <wb />
                                 <wrtl />
                             </wrPr>
                             <wt>وثبوت الهلال</wt>
@@ -5317,7 +5319,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>P-01-T-R</wt>
+                            <wt>G-I</wt>
                         </wr>
                      
                         
@@ -6257,7 +6259,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>P-01-M-R</wt>
+                            <wt>G-M</wt>
                         </wr>
                       
                      

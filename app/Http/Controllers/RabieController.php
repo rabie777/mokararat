@@ -89,10 +89,12 @@ class RabieController extends Controller
                 }
                 if ((isset($Rinfo["Bold"]))) {
                   $Bold = "Bold";
+                 // $text.="<span style=color:#".$color.";font-family:".$Font."' >".$kid2."</span>.&nbsp";
+                //  echo "<span style=color:#".$color.";font-weight:".$Bold.";font-family:".$Font."'>$kid2</span>";
                 }
-                //echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid2</div>";
-
-                  $text.="<span style=color:#".$color.";font-family:".$Font."' >".$kid2."</span>.&nbsp";
+                
+else{
+                  $text.="<span style=color:#".$color.";font-weight:".$Bold.";font-family:".$Font."' >".$kid2."</span>.&nbsp";}
                 $color = "";
                 $size = "";
                 $Bold = "";
@@ -156,11 +158,84 @@ class RabieController extends Controller
               //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
 
             }
-            if (!str_starts_with($kid1, 'P') && !str_starts_with($kid1, 'N')) 
+
+            if (str_starts_with($kid1, 'G')) {
+                
+                switch ($kid1) {
+
+                    case "G-M":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-F":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-K":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-V":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-E":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-L":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-I":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-Z":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-B":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-O":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-N":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-A":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-D":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-G":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-S":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-KL":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-T":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-KM":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-R":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-TM":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-C":
+                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                    case "G-TR":
+                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        break;
+                }
+            }
+            if (!str_starts_with($kid1, 'P') && !str_starts_with($kid1, 'G')&&!str_starts_with($kid1, 'N')) 
             {
               ////////////////////////////////////////////////////
               if ($color) {
-                $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 ."&nbsp". "</span>";
+                $text .= "<span  style='" . "color:#" . $color . " ;font-family:" . $Font . ";' >" . $kid1 ."&nbsp". "</span>";
               } else {
                 $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
                 $text .="<span >".str_replace($vowels, '', $kid1)."</span>";
@@ -172,7 +247,7 @@ class RabieController extends Controller
 
                 $text .= "style='";
                 if ($color) {
-                  $data .= "color:#$color;";
+                  $data .= "color:#".$color." ; ";
                 }
                 //$Font="bahij";
                 $value = str_replace('HB', '', $kid1);
@@ -392,7 +467,7 @@ class RabieController extends Controller
         <link rel="stylesheet" type="text/css"
           href="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/css/Templates-rtl.css">
         <link type="text/css" rel="stylesheet"
-          href="https://storage.googleapis.com/ifta-learning-dp/uploads/ifta_content/temps/assets/css/fonts.css"
+          href="./assets/fonts.css"
           charset="utf-8">
         <style>
         #MainArea .MainScr .MainScr_med_med,
@@ -417,13 +492,7 @@ class RabieController extends Controller
         .body {
           height: 100% !important;
         }
-          .Header_Box {
-            background-color: #e6ffff;
-            color: black;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-          }
+          
           .Title_Box{
             background-color: #00ffff;
             color: black;
@@ -431,14 +500,7 @@ class RabieController extends Controller
             margin: 20px;
             padding: 20px;
           }
-          .Reference_Box
-          {
-            background-color: #ffffcc;
-            color: black;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-          }
+          
         </style>
       </head>
       
