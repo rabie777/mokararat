@@ -5354,6 +5354,17 @@
                             </wrPr>
                             <wt>وإن ظهر يوم الشك أنه من شعبان فقد قيل</wt>
                         </wr>
+                        <wr wrsidR="004C5272" wrsidRPr="00367EB1">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="00BA778B" wrsidRDefault="004C5272" wrsidP="004C5272">
                         <wpPr>
@@ -5377,6 +5388,16 @@
                                 <wrtl />
                             </wrPr>
                             <wt xmlspace="preserve"> (1) يكون تطوعًا منهيًّا عنه فلا يتأدى به الواجب.</wt>
+                        </wr>
+                        <wr wrsidR="004C5272" wrsidRPr="00367EB1">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wcolor wval="0070C0" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="004C5272" wrsidP="004C5272">
@@ -6240,6 +6261,15 @@
                                 <wrtl />
                             </wrPr>
                             <wt xmlspace="preserve"> وإن ظهر أنه من شعبان لا يجزئه عن واجب آخر؛ لأن الجهة لم تثبت للتردد فيها، وأصل النية لا يكفيه لكنه يكون تطوعًا غير مضمون بالقضاء لشروعه فيه مسقطًا.</wt>
+                        </wr>
+                        <wr wrsidRPr="005F004D">
+                            <wrPr>
+                                <wrFonts wascii="Almarai" whAnsi="Almarai" wcs="Almarai" />
+                                <wsz wval="28" />
+                                <wszCs wval="28" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="004C5272" wrsidRPr="005F004D" wrsidRDefault="001040F8" wrsidP="003B5F6D">

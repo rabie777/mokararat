@@ -20,7 +20,7 @@ class RabieController extends Controller
 
 
 
-    $rabie= simplexml_load_file("exp1.xml");
+    $rabie= simplexml_load_file("test4.xml");
 
     function recurse($child)
     {
@@ -96,7 +96,8 @@ class RabieController extends Controller
                 
 else{
   //echo $size;
-                  $text.="<span style=color:#".$color.";font-weight:".$Bold.";font-family:".$Font."' >".$kid2."</span>.&nbsp";}
+                  $text.="<span style=color:#".$color.";font-weight:".$Bold.";font-family:".$Font."' >".$kid2."</span>.&nbsp";
+                }
                 $color = "";
                 $size = "";
                 $Bold = "";
@@ -164,74 +165,75 @@ else{
             }
 
             if (str_starts_with($kid1, 'G')) {
-                
+                //style="width:120px;height:40px;"
                 switch ($kid1) {
 
                     case "G-M":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png">&nbsp';
+                         
                         break;
                     case "G-F":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >&nbsp';
                         break;
                     case "G-K":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >&nbsp';
                         break;
                     case "G-V":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-E":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-L":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-I":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >&nbsp';
                         break;
                     case "G-Z":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-B":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-O":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-N":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-A":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img  style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-D":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-G":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-S":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-KL":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-T":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-KM":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-R":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-TM":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-C":
-                        $text .= '<p  align="right"; ><img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-TR":
-                        $text .= '<p  align="right"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
+                        $text .= '<img style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
                         break;
                 }
             }
@@ -239,12 +241,13 @@ else{
             {
               ////////////////////////////////////////////////////
               if ($color) {
-                $text .= "<span  style='" . "color:#" . $color . " ;font-family:" . $Font . ";' >" . $kid1 ."&nbsp". "</span>";
+                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
+               $text .= "<span  style='" . "color:#" . $color . " ;font-family:" . $Font . ";' >" .str_replace($vowels, '', $kid1)."&nbsp". "</span>";
               } else {
                 $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
                 $text .="<span >".str_replace($vowels, '', $kid1)."</span>";
               }
-
+             //////////////////////////////////////////////////////////////////////////////////
               if (str_starts_with($kid1, 'HB')) {
                 $data = " ";
                 $text .= "<div class='Header_Box' ";
@@ -280,7 +283,7 @@ else{
                 $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . "\n";
                 $kid1 = str_replace('RB', '', $kid1);
                 if ($color) {
-                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span> ";
                 } else {
                   $kid1 = str_replace('RB', '', $kid1);
                   $text .= $kid1;
