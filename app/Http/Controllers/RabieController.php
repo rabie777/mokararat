@@ -20,7 +20,7 @@ class RabieController extends Controller
 
 
 
-    $rabie= simplexml_load_file("test4.xml");
+    $rabie= simplexml_load_file("hama2.xml");
 
     function recurse($child)
     {
@@ -144,27 +144,29 @@ else{
               //$Font="bahij";
             }
             if ((isset($Rinfo["Bold"]))) {
-              $Bold = "Bold";
+                $Bold = "Bold";
             }
+
+            
             //&& !(str_starts_with($kid1, 'p'))
             //if($kid1 !=='.' ){ 
             //$txt.= $kid1;
 
             // echo "<div style=color:#$color;font-size:$size/2px;font-family:$Font;>$kid1</div>";
-            if (str_starts_with($kid1, 'P')) {
-              if (strchr($kid1, 'C')) {
+            if (str_starts_with(trim($kid1), 'P')) {
+             // if (strchr($kid1, 'C')) {
                 $text .= '<p  align="center"; ><img src="assets/images/' . $kid1 . '.png" ></p>';
-              }
-              if (strchr($kid1, 'R')) {
+//}
+             /* if (strchr($kid1, 'R')) {
                 $text .= '<p  align="right" ><img src="assets/images/' . $kid1 . '.png" ></p>';
-              }
+              }*/
 
               //echo $kid1 ."<br>";
               //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
 
             }
 
-            if (str_starts_with($kid1, 'G')) {
+            if (str_starts_with(trim($kid1), 'G')) {
                 //style="width:120px;height:40px;"
                 switch ($kid1) {
 
@@ -237,43 +239,60 @@ else{
                         break;
                 }
             }
-            if (!str_starts_with($kid1, 'P') && !str_starts_with($kid1, 'G')&&!str_starts_with($kid1, 'N')) 
+            if (!str_starts_with(trim($kid1), 'P') && !str_starts_with(trim($kid1), 'G')&&!str_starts_with(trim($kid1), 'N')) 
             {
               ////////////////////////////////////////////////////
+              $Font="bahij";
+              $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB');
               if ($color) {
-                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
-               $text .= "<span  style='" . "color:#" . $color . " ;font-family:" . $Font . ";' >" .str_replace($vowels, '', $kid1)."&nbsp". "</span>";
-              } else {
-                $vowels = array('HB','SB','TB','RB','ER','ES','ET','EH','E');
-                $text .="<span >".str_replace($vowels, '', $kid1)."</span>";
+                $text .= "<span style='" . "color:#" . $color . " ;font-family:" . $Font . "' >" .str_replace($vowels, '', $kid1)."". "</span>";
               }
+
+             elseif($Bold) {
+                $text .= "<span  style='" . " font-weight:" .$Bold. ";font-family:" . $Font . "' >" .str_replace($vowels, '', $kid1)."". "</span>";
+              }
+             
+              else {
+                $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB');
+                //$text .="<span >".str_replace($vowels,'', $kid1)."</span>";
+                $text .="<span>".str_replace($vowels,'', $kid1)."&nbsp"."</span>";
+              }
+               
              //////////////////////////////////////////////////////////////////////////////////
-              if (str_starts_with($kid1, 'HB')) {
-                $data = " ";
+              if (str_starts_with(trim($kid1), 'HB')) {
+                //$data = " ";
                 $text .= "<div class='Header_Box' ";
 
-                $text .= "style='";
+               // $text .= "style='";
                 if ($color) {
-                  $data .= "color:#".$color." ; ";
+
+                  $text .="<span  style='color:#".$color.";'";
                 }
+                elseif ($Bold) {
+                  $text .= "font-weight:".$Bold." ;'> ";
+                  
+                }
+
                 //$Font="bahij";
-                $value = str_replace('HB', '', $kid1);
+             //  echo  $kid1;
+               // echo $text;
+                $value = str_replace('HB', '', trim($kid1));
 
-                //$value;
+               //echo $value;
 
-                $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . $value . "\n";
+                //$text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . $value . "\n";
               }
 
               //$text.= $data; 
-                if (str_starts_with($kid1, 'EH')) {
-               
+                if (str_starts_with(trim($kid1), 'EH')) {
+                $text.="</span>"; 
                 $text .= "</div>";
-
+               
                 //  echo  $text."<br>";
-                $data = " ";
+                //$data = " ";
               }
               //////////////////////////////////////////////////
-              if (str_starts_with($kid1, 'RB')) {
+              if (str_starts_with(trim($kid1), 'RB')) {
 
                 $text .= "<div class='Reference_Box' ";
 
@@ -289,15 +308,42 @@ else{
                   $text .= $kid1;
                 }
               }
-              if (str_starts_with($kid1, 'ER')) {
+              if (str_starts_with(trim($kid1), 'ER')) {
 
                 $text .= "</div>";
                 $text .= " ";
               }
               ///////////////////////////////////////////////////
-              if (str_starts_with($kid1, 'SB')) {
+              if (str_starts_with(trim($kid1), 'MB')) {
 
                 $text .= "<div class='Saying_Box' ";
+                $text .= " style='";
+             /*   if ($color) {
+                  $text .= "color:#" . $color . "; ";
+                }*/
+                //s$Font="bahij";
+                 
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";' >" . "\n";
+
+                $kid1 = str_replace($kid1, '', 'MB');
+                if ($color) {
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
+                } else {
+                  $kid1 = str_replace('MB', '', $kid1);
+                  $text .= $kid1;
+                  // echo $kid1."<br>";
+                  // echo $value."--";
+                }
+              }
+              if (str_starts_with(trim($kid1), 'EM')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
+              //////////////////////////////////////////////////////
+              if (str_starts_with(trim($kid1), 'DB')) {
+               // echo "DB";
+               $text .= "<div class='Poem_Box' ";
                 $text .= " style='";
                 if ($color) {
                   $text .= "color:#" . $color . "; ";
@@ -306,29 +352,35 @@ else{
                  
                 $text .= "font-size:".$size."px;font-family:" . $Font . ";' >" . "\n";
 
-                $kid1 = str_replace($kid1, '', 'SB');
+                $kid1 = str_replace($kid1, '', 'DB');
                 if ($color) {
                   $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span>";
                 } else {
-                  $kid1 = str_replace('SB', '', $kid1);
+                  $kid1 = str_replace('ED', '', $kid1);
                   $text .= $kid1;
                   // echo $kid1."<br>";
                   // echo $value."--";
                 }
               }
-              if (str_starts_with($kid1, 'ES')) {
+              if (str_starts_with(trim($kid1), 'ED')) {
 
                 $text .= "</div>";
                 $text .= " ";
               }
               //////////////////////////////////////////////////////
-              if (str_starts_with($kid1,'TB')) {
+              if (str_starts_with(trim($kid1),'TB')) {
+                if ($Bold){ $text .= "<div class='Title_Box' style='font-weight:".$Bold.";'>";
+                }else{
                 $text .= "<div class='Title_Box' style='font-size:".$size."px;'>";
-
+                }
                 $kid1 = str_replace('TB', '', $kid1);
                 $text .= "<span  style='";
                 if ($color) {
                   $text .= "color:#" . $color . ";";
+                }
+                elseif($Bold)
+                {
+                  $text .= "font-weight:".$Bold.";";
                 }
                 //s$Font="bahij";
                 $text .= "font-family:" . $Font . ";'>" . $kid1 . "</span>" . "\n";
@@ -338,7 +390,7 @@ else{
                 $text .= " ";
               }*/
 
-              if (str_starts_with($kid1, 'ET')) {
+              if (str_starts_with(trim($kid1), 'ET')) {
 
                 $text .= "</div>";
                 $text .= " ";
@@ -355,9 +407,10 @@ else{
 
 
 
-
+              $Bold="";
               $color = "";
-              if ($kid1 == '.' ||$kid1 == '؟') {
+              $kid1=trim($kid1);
+              if ($kid1 == '.' ||$kid1 == '؟'||$kid1 == ':.') {
                 $text .= "<br>";
               }
 
@@ -1358,7 +1411,7 @@ $("body").removeClass("in-fullscreen");
     if ($page < $count - 1) {
       $text = $pageTop . $text . $tools . $footer;
     } else {
-      echo $count;
+     // echo $count;
       $next = $count;
       ////////////////////////
 

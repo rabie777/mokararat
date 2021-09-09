@@ -259,7 +259,7 @@ p .عناصر{
 .Header_Box{
 	background:url(./images/hb_bg_right.png) center right no-repeat,url(./images/hb_bg_left.png) center left no-repeat, url(./images/hb_bg.png) center center repeat-x  ;
 	min-width: 345px;
-	max-width: 50%;
+	max-width: auto;
 	width:fit-content;
 	height: 65px;
 	margin: auto;
@@ -270,24 +270,39 @@ p .عناصر{
 }
 
 .Reference_Box{
-	background:url(images/rp_bg_top.png) center top no-repeat,url(./images/rp_bg_bottom.png) center bottom no-repeat, url(./images/rp_bg_center.png) center center repeat-y  ;
+ 
 	min-width: auto;
     max-width: 50%;
     width: fit-content;
-    height:auto;
-	min-height:30px;
-	height:auto !important;      
-	height:30px;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 49px;
+    height: auto;
+    min-height: 30px;
+    height: auto !important;
+    height: 30px;
+	margin: auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    padding-top: 33px;
+    padding-bottom: 12px;
     padding-left: 50px;
     padding-right: 52px;
+    border: #000000 dashed 1px;
+    position: relative;
+	border-radius: 25px;
 }
+.Reference_Box:after {
+	content:'';
+    position: absolute;
+	top: -25px;/*position of the background*/
+    right: 20px;/*position of the background*/
+    background:url(./images/G-R.png) center right no-repeat ;
+    width: 100px;/*width of the background*/
+    height: 45px;/*height of the background*/
+}
+
 .Saying_Box{
 	background:url(images/sbb_bg_right.png)center right no-repeat,url(images/sb_bg_left.png)center left no-repeat,url(images/sb_bg_center.png)center center repeat-x ;
 	min-width: 345px;
-    max-width: 60%;
+    max-width: auto;
     width: fit-content;
     
 	min-height:150px;
@@ -302,14 +317,57 @@ p .عناصر{
 {
 	background:url(./images/tb_bg_right.png) center right no-repeat,url(./images/tb_bg_left.png) center left no-repeat, url(./images/tb_bg.png) center center repeat-x  ;
 	min-width: 230px;
-    max-width: 50%;
+    max-width: auto;
 	padding-bottom: 15px;
     width: fit-content;
     height:auto;
-	min-height:30px;
+	min-height: 67px;
 	height:auto !important;      
 	height:30px;
     text-align: center;
     padding-left: 35px;
     padding-right: 33px;
+}
+/*.Title_Box{
+	max-width: auto !important;
+	border: #000;
+	height:auto !important;      
+}
+*/
+.Poem_Box{
+	
+
+	min-width: 305px;
+    max-width: auto;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding-top: 26px;
+    padding-bottom: 35px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: #000000 dashed 1px;
+    border-radius: 25px;
+	position:relative ;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.Poem_Box:after {
+    content:'';/*enable after element*/
+    position: absolute;
+	top: -25px;/*position of the background*/
+    right: 20px;/*position of the background*/
+    background:url(./images/G-E.png) center right no-repeat ;
+    width: 100px;/*width of the background*/
+    height: 45px;/*height of the background*/
+}
+
+
+.Input_Box{
+
+	width: fit-content;
+    text-align: center;
+    margin: auto;
+    border: solid 1px darkturquoise;
 }

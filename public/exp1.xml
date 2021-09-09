@@ -179,7 +179,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidR="00F12599" wrsidRPr="00AC5C20">
                             <wrPr>
@@ -247,7 +247,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="00F12599">
                             <wrPr>
@@ -583,7 +583,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidR="00FD51EC" wrsidRPr="008D04B8">
                             <wrPr>
@@ -660,7 +660,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1133,7 +1133,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -1169,7 +1169,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1292,7 +1292,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -1365,7 +1365,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -1674,7 +1674,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB </wt>
+                            <wt>MB </wt>
                         </wr>
                         <wr wrsidRPr="007319A0">
                             <wrPr>
@@ -1742,7 +1742,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -2668,7 +2668,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -2703,7 +2703,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -2925,7 +2925,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -2951,7 +2951,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -3757,7 +3757,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -3784,7 +3784,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -3865,7 +3865,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">. </wt>
+                            <wt>.</wt>
                         </wr>
                         <wr wrsidRPr="00495030">
                             <wrPr>
@@ -6466,7 +6466,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidR="008F200D" wrsidRPr="001040F8">
                             <wrPr>
@@ -6617,7 +6617,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -6721,7 +6721,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidRPr="001040F8">
                             <wrPr>
@@ -6848,7 +6848,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -6963,7 +6963,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidRPr="0074585A">
                             <wrPr>
@@ -7170,7 +7170,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -7277,7 +7277,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>SB</wt>
+                            <wt>MB</wt>
                         </wr>
                         <wr wrsidRPr="0074585A">
                             <wrPr>
@@ -7425,7 +7425,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>
@@ -7597,7 +7597,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt xmlspace="preserve">SB </wt>
+                            <wt xmlspace="preserve">MB </wt>
                         </wr>
                         <wr wrsidRPr="0074585A">
                             <wrPr>
@@ -7664,7 +7664,7 @@
                                 <wsz wval="28" />
                                 <wszCs wval="28" />
                             </wrPr>
-                            <wt>ES</wt>
+                            <wt>EM</wt>
                         </wr>
                         <wr wrsidR="002F2376">
                             <wrPr>

@@ -1,0 +1,10 @@
+
+
+.Input_Box{
+
+	width: fit-content;
+    text-align: center;
+    margin: auto;
+    border: solid 1px darkturquoise;
+	margin-top: 100px;
+}

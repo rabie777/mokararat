@@ -188,7 +188,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00B86A60" wrsidRPr="00231911" wrsidRDefault="00B86A60" wrsidP="00B86A60">
@@ -354,7 +354,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="0024468F" wrsidRPr="00420ED6" wrsidRDefault="00420ED6" wrsidP="00420ED6">
@@ -367,8 +367,9 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
+
                         </wpPr>
-                        <wr>
+                     <wr>
                             <wrPr>
                                 <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
                                 <wsz wval="32" />
@@ -566,7 +567,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve">. </wt>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00FD6836" wrsidRPr="00420ED6" wrsidRDefault="00420ED6" wrsidP="00420ED6">
@@ -579,6 +580,7 @@
                                 <wszCs wval="32" />
                             </wrPr>
                         </wpPr>
+                
                         <wr>
                             <wrPr>
                                 <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
@@ -1553,7 +1555,16 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أن تكون مُفْرَدةً.</wt>
+                            <wt xmlspace="preserve"> أن تكون مُفْرَدةً</wt>
+                        </wr>
+                        <wr wrsidRPr="008073FF">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="32" />
+                                <wszCs wval="32" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="006421C0" wrsidRPr="008073FF" wrsidRDefault="006421C0" wrsidP="0089103F">
@@ -1603,7 +1614,16 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt>َرةً.</wt>
+                            <wt>َرةً</wt>
+                        </wr>
+                        <wr wrsidRPr="008073FF">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="32" />
+                                <wszCs wval="32" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="002474D7" wrsidRPr="008073FF" wrsidRDefault="006421C0" wrsidP="008073FF">
@@ -1636,7 +1656,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أن تكون مضافة.</wt>
+                            <wt xmlspace="preserve"> أن تكون مضافة</wt>
                         </wr>
                         <wr wrsidR="002474D7" wrsidRPr="008073FF">
                             <wrPr>
@@ -1647,6 +1667,15 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
+                        </wr>
+                        <wr wrsidRPr="008073FF">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="32" />
+                                <wszCs wval="32" />
+                                <wrtl />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="006421C0" wrsidRPr="008073FF" wrsidRDefault="006421C0" wrsidP="0089103F">
@@ -1687,7 +1716,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt>ِّ</wt>
+                            <wt>ِّم</wt>
                         </wr>
                         <wr wrsidRPr="008073FF">
                             <wrPr>
@@ -1696,7 +1725,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt>م.</wt>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00163D88" wrsidRPr="008073FF" wrsidRDefault="0030793E" wrsidP="005F0707">
@@ -2228,16 +2257,9 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt>G-</wt>
+                            <wt>G-E</wt>
                         </wr>
-                        <wr wrsidR="008073FF" wrsidRPr="008073FF">
-                            <wrPr>
-                                <wnoProof />
-                                <wsz wval="32" />
-                                <wszCs wval="32" />
-                            </wrPr>
-                            <wt>E</wt>
-                        </wr>
+                        
                         <wr wrsidR="008073FF" wrsidRPr="008073FF">
                             <wrPr>
                                 <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" whint="cs" />
@@ -2281,7 +2303,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="006421C0" wrsidRPr="008073FF" wrsidRDefault="0089103F" wrsidP="00163D88">
@@ -2294,6 +2316,7 @@
                                 <wszCs wval="32" />
                                 <wrtl />
                             </wrPr>
+
                         </wpPr>
                         <wr wrsidRPr="008073FF">
                             <wrPr>
@@ -2302,7 +2325,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt>PB</wt>
+                            <wt>DB</wt>
                         </wr>
                         <wr wrsidRPr="008073FF">
                             <wrPr>
@@ -2356,7 +2379,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve"> EP</wt>
+                            <wt>ED</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00E400D5" wrsidRPr="008073FF" wrsidRDefault="006421C0" wrsidP="00163D88">
