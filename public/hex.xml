@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+ 
                 <wbody>
                     <wp wrsidR="008B4D70" wrsidRDefault="007C23BE" wrsidP="00644BEF">
                         <wpPr>
@@ -110,7 +110,7 @@
                             <wt>MB</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="007C23BE">
+                    <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="008D7156">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -161,15 +161,14 @@
                             </wrPr>
                             <wt></wt>
                         </wr>
-                        <wr wrsidR="008B0021">
+                        <wr wrsidR="008D7156">
                             <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" whint="cs" />
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
-                                <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt>.</wt>
+                            <wt></wt>
                         </wr>
                         <wr wrsidRPr="00D1297E">
                             <wrPr>
@@ -180,6 +179,15 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wt xmlspace="preserve"></wt>
+                        </wr>
+                        <wr wrsidR="008D7156">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>.</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="007C23BE">
@@ -274,17 +282,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">تلاف المطالع، وحكم صوم </wt>
-                        </wr>
-                        <wbookmarkStart wid="0" wname="_GoBack" />
-                        <wr wrsidR="00B356D3">
-                            <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
-                                <wsz wval="30" />
-                                <wszCs wval="30" />
-                                <wrtl />
-                            </wrPr>
-                            <wt>يوم الشك</wt>
+                            <wt>تلاف المطالع، وحكم صوم يوم الشك</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -315,7 +313,6 @@
                             <wt>.</wt>
                         </wr>
                     </wp>
-                    <wbookmarkEnd wid="0" />
                     <wp wrsidR="007C23BE" wrsidRPr="009D304F" wrsidRDefault="009D304F" wrsidP="00A4035F">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
@@ -409,8 +406,21 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
+                            <wt>.</wt>
+                        </wr>
+                        <wr wrsidR="008D7156">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wb />
+                                <wbCs />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
                             <wt></wt>
                         </wr>
+                        <wbookmarkStart wid="0" wname="_GoBack" />
+                        <wbookmarkEnd wid="0" />
                     </wp>
                     <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="00644BEF" wrsidP="00644BEF">
                         <wpPr>
@@ -876,6 +886,14 @@
                             </wrPr>
                             <wt>EF</wt>
                         </wr>
+                        <wr>
+                            <wrPr>
+                                <wrFonts wascii="Cambria" whAnsi="Cambria" wcs="Lotus Linotype" />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
+                            </wrPr>
+                            <wt>N</wt>
+                        </wr>
                     </wp>
                     <wp wrsidR="008B4D70" wrsidRPr="00906AE5" wrsidRDefault="007C23BE" wrsidP="00644BEF">
                         <wpPr>
@@ -885,12 +903,14 @@
                             <wspacing wbefore="0" wbeforeAutospacing="0" wafter="80" wafterAutospacing="0" wline="520" wlineRule="exact" />
                             <wjc wval="lowKashida" />
                             <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="PT Bold Heading" />
-                                <wcolor wval="0070C0" />
-                                <wsz wval="30" />
-                                <wszCs wval="30" />
-                                <wrtl />
-                                <wlang wbidi="ar-EG" />
+                                <wr>
+                                    <wrPr>
+                                        <wrFonts wascii="Cambria" whAnsi="Cambria" wcs="Lotus Linotype" />
+                                        <wsz wval="30" />
+                                        <wszCs wval="30" />
+                                    </wrPr>
+                                    <wt>N</wt>
+                                </wr>
                             </wrPr>
                         </wpPr>
                         <wbookmarkStart wid="1" wname="وقت_الصوم_وأركانه_" />
@@ -10423,14 +10443,7 @@
                                 <wszCs wval="30" />
                             </wrPr>
                         </wpPr>
-                        <wr>
-                            <wrPr>
-                                <wrFonts wascii="Cambria" whAnsi="Cambria" wcs="Lotus Linotype" />
-                                <wsz wval="30" />
-                                <wszCs wval="30" />
-                            </wrPr>
-                            <wt>N</wt>
-                        </wr>
+                        
                     </wp>
                     <wp wrsidR="004D239F" wrsidRPr="00044B0F" wrsidRDefault="004D239F" wrsidP="004D239F">
                         <wpPr>
@@ -10457,4 +10470,4 @@
                         <wdocGrid wlinePitch="360" />
                     </wsectPr>
                 </wbody>
-            
+             

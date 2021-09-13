@@ -267,6 +267,9 @@ p .عناصر{
     text-align: center;
 	padding-left: 35px;
 	padding-right: 35px;
+	font-family:Almarai ExtraBold;
+    font-size:22px
+	
 }
 
 .Reference_Box{
@@ -370,4 +373,63 @@ p .عناصر{
     text-align: center;
     margin: auto;
     border: solid 1px darkturquoise;
+}
+
+.start_Box
+{
+	min-width: auto;
+    
+    width: fit-content;
+    height: auto;
+    min-height: 30px;
+    height: auto !important;
+    height: 30px;
+ 
+    margin-top: 20px;
+	margin-bottom: 20px;
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 52px;
+    border: #000000 dashed 1px;
+    position: relative;
+	border-radius: 25px;
+}
+.start_Box:after {
+	content:'';
+    position: absolute;
+	top: -25px;/*position of the background*/
+    right: 20px;/*position of the background*/
+    background:url(./images/G-A.png) center right no-repeat ;
+    width: 100px;/*width of the background*/
+    height: 45px;/*height of the background*/
+}
+.goals_Box
+{
+	min-width: auto;
+    
+    width: fit-content;
+    height: auto;
+    min-height: 30px;
+    height: auto !important;
+    height: 30px;
+ 
+    margin-top: 20px;
+	margin-bottom: 20px;
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 52px;
+    border: #000000 dashed 1px;
+    position: relative;
+	border-radius: 25px;
+}
+.goals_Box:after {
+	content:'';
+    position: absolute;
+	top: -25px;/*position of the background*/
+    right: 20px;/*position of the background*/
+    background:url(./images/G-G.png) center right no-repeat ;
+    width: 100px;/*width of the background*/
+    height: 45px;/*height of the background*/
 }
