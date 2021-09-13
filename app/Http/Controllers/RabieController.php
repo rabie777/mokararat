@@ -13,14 +13,14 @@ class RabieController extends Controller
     $count = 1;
     $head = 0;
     $txt = '';
+    $flag=0;
 
 
 
 
 
 
-
-    $rabie= simplexml_load_file("hama2.xml");
+    $rabie= simplexml_load_file("exp2.xml");
 
     function recurse($child)
     {
@@ -165,8 +165,9 @@ else{
               //$text.='<p align="center" ><a data-fancybox="images" href="assets/images/'.$kid1.'.png">اضغط هنا لمشاهدة الخريطة التوضيحية</a></p>';
 
             }
-
+            
             if (str_starts_with(trim($kid1), 'G')) {
+             
                 //style="width:120px;height:40px;"
                 switch ($kid1) {
 
@@ -205,12 +206,15 @@ else{
                         $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-A":
+                        $flag=1;
                         $text .= '<img  style="width:120px;height:40px;"src="assets/images/' . $kid1 . '.png" >';
+                        
                         break;
                     case "G-D":
                         $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-G":
+                      $flag=2;
                         $text .= '<img style="width:120px;height:40px;" src="assets/images/' . $kid1 . '.png" >';
                         break;
                     case "G-S":
@@ -239,13 +243,20 @@ else{
                         break;
                 }
             }
-            if (!str_starts_with(trim($kid1), 'P') && !str_starts_with(trim($kid1), 'G')&&!str_starts_with(trim($kid1), 'N')) 
+            if (!empty($kid1)&&!str_starts_with(trim($kid1), 'P') && !str_starts_with(trim($kid1), 'G')&&!str_starts_with(trim($kid1), 'N')) 
             {
               ////////////////////////////////////////////////////
-              $Font="bahij";
-              $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB');
+              // if($flag==1){
+              //    echo "set flag"."<br>";
+                 
+              // //  $text.="<div class='Intro_Box'>";
+              // }
+              
+              //$Font="bahij";
+              $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB','SB','ES','MB','EM','FB','EF');
+
               if ($color) {
-                $text .= "<span style='" . "color:#" . $color . " ;font-family:" . $Font . "' >" .str_replace($vowels, '', $kid1)."". "</span>";
+               $text .= "<span style='" . "color:#" . $color . " ;font-family:" . $Font . ";' >" .str_replace($vowels, '', $kid1)."". "</span>";
               }
 
              elseif($Bold) {
@@ -253,11 +264,14 @@ else{
               }
              
               else {
-                $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB');
-                //$text .="<span >".str_replace($vowels,'', $kid1)."</span>";
-                $text .="<span>".str_replace($vowels,'', $kid1)."&nbsp"."</span>";
+                $vowels = array('HB','MB','TB','RB','ER','EM','ET','EH','ED','DB','SB','ES','MB','EM','FB','EF');
+                $text .="<span>".str_replace($vowels,'', $kid1)."</span>";
+              //  $text .="<span>".str_replace($vowels,'', $kid1)."&nbsp"."</span>";
               }
-               
+              // if(str_contains($text,'G-G'))
+              //  {
+              //  //  $text.="</div>";
+              //  }
              //////////////////////////////////////////////////////////////////////////////////
               if (str_starts_with(trim($kid1), 'HB')) {
                 //$data = " ";
@@ -313,8 +327,52 @@ else{
                 $text .= "</div>";
                 $text .= " ";
               }
+               //////////////////////////////////////////////////
+               if (str_starts_with(trim($kid1), 'MB')) {
+
+                $text .= "<div class='start_Box' ";
+
+                $text .= "style='";
+                //if($color){ $text.= "color:#$color;"; }
+                //$Font="QCF_P029";
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . "\n";
+                $kid1 = str_replace('MB', '', $kid1);
+                if ($color) {
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span> ";
+                } else {
+                  $kid1 = str_replace('MB', '', $kid1);
+                  $text .= $kid1;
+                }
+              }
+              if (str_starts_with(trim($kid1), 'EM')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
               ///////////////////////////////////////////////////
-              if (str_starts_with(trim($kid1), 'MB')) {
+               if (str_starts_with(trim($kid1), 'FB')) {
+
+                $text .= "<div class='goals_Box' ";
+
+                $text .= "style='";
+                //if($color){ $text.= "color:#$color;"; }
+                //$Font="QCF_P029";
+                $text .= "font-size:".$size."px;font-family:" . $Font . ";'>" . "\n";
+                $kid1 = str_replace('FB', '', $kid1);
+                if ($color) {
+                  $text .= "<span  style='" . "color:#" . $color . ";' >" . $kid1 . "</span> ";
+                } else {
+                  $kid1 = str_replace('FB', '', $kid1);
+                  $text .= $kid1;
+                }
+              }
+              if (str_starts_with(trim($kid1), 'EF')) {
+
+                $text .= "</div>";
+                $text .= " ";
+              }
+              ///////////////////////////////////////////////////
+              if (str_starts_with(trim($kid1), 'SB')) {
 
                 $text .= "<div class='Saying_Box' ";
                 $text .= " style='";
@@ -335,7 +393,7 @@ else{
                   // echo $value."--";
                 }
               }
-              if (str_starts_with(trim($kid1), 'EM')) {
+              if (str_starts_with(trim($kid1), 'ES')) {
 
                 $text .= "</div>";
                 $text .= " ";

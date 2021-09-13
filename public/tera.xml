@@ -18,6 +18,8 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                         </wpPr>
+                        <wbookmarkStart wid="0" wname="_GoBack" />
+                        <wbookmarkEnd wid="0" />
                         <wr wrsidRPr="00644BEF">
                             <wrPr>
                                 <wrFonts wascii="Simplified Arabic" whAnsi="Simplified Arabic" wcs="Simplified Arabic" />
@@ -37,7 +39,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وقت </wt>
+                            <wt xml:space="preserve">وقت </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="007C23BE">
                             <wrPr>
@@ -47,7 +49,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">الصوم </wt>
+                            <wt xml:space="preserve">الصوم </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="007C23BE">
                             <wrPr>
@@ -68,7 +70,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00644BEF">
                             <wrPr>
@@ -110,7 +112,7 @@
                             <wt>MB</wt>
                         </wr>
                     </wp>
-                    <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="007C23BE">
+                    <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="008D7156">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
                             <wwidowControl wval="0" />
@@ -149,7 +151,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ثم أما بعد</wt>
+                            <wt xml:space="preserve"> ثم أما بعد</wt>
                         </wr>
                         <wr wrsidRPr="00D1297E">
                             <wrPr>
@@ -159,27 +161,35 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
-                        <wr wrsidR="008B0021">
+                        <wr wrsidR="008D7156">
                             <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" whint="cs" />
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>:</wt>
+                        </wr>
+                        <wr wrsidRPr="00D1297E">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                                 <wrtl />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt xml:space="preserve"></wt>
+                        </wr>
+                        <wr wrsidR="008D7156">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wt>.</wt>
-                        </wr>
-                        <wr wrsidRPr="00D1297E">
-                            <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
-                                <wsz wval="30" />
-                                <wszCs wval="30" />
-                                <wrtl />
-                                <wlang wbidi="ar-EG" />
-                            </wrPr>
-                            <wt xmlspace="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="007C23BE" wrsidP="007C23BE">
@@ -204,7 +214,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>فقد درست عزيزي الطالب؛ في المحاضرة السابقة أحكام ا</wt>
+                            <wt>فقد درست عزيزي الطالب؛ في المحاضرة السابقة: أحكام ا</wt>
                         </wr>
                         <wr wrsidR="00B356D3">
                             <wrPr>
@@ -231,7 +241,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> والنية في صوم النفل، وحكم صوم رمضان بنية واجب آخر</wt>
+                            <wt xml:space="preserve"> والنية في صوم النفل، وحكم صوم رمضان بنية واجب آخر</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -265,7 +275,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>وتدرس في هذه المحاضرة- إن شاء الله تعالى وقت الصوم وأركانه، وأحكام التماس هلال شهر رمضان، وأحكام ثبوت هلال رمضان، وعدم اعتبار اخ</wt>
+                            <wt>وتدرس في هذه المحاضرة- إن شاء الله تعالى: وقت الصوم وأركانه، وأحكام التماس هلال شهر رمضان، وأحكام ثبوت هلال رمضان، وعدم اعتبار اخ</wt>
                         </wr>
                         <wr wrsidR="00B356D3">
                             <wrPr>
@@ -274,17 +284,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">تلاف المطالع، وحكم صوم </wt>
-                        </wr>
-                        <wbookmarkStart wid="0" wname="_GoBack" />
-                        <wr wrsidR="00B356D3">
-                            <wrPr>
-                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
-                                <wsz wval="30" />
-                                <wszCs wval="30" />
-                                <wrtl />
-                            </wrPr>
-                            <wt>يوم الشك</wt>
+                            <wt>تلاف المطالع، وحكم صوم يوم الشك</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -302,7 +302,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وأحكام ثبوت هلال شوال وذي الحجة</wt>
+                            <wt xml:space="preserve"> وأحكام ثبوت هلال شوال وذي الحجة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -315,7 +315,6 @@
                             <wt>.</wt>
                         </wr>
                     </wp>
-                    <wbookmarkEnd wid="0" />
                     <wp wrsidR="007C23BE" wrsidRPr="009D304F" wrsidRDefault="009D304F" wrsidP="00A4035F">
                         <wpPr>
                             <wpStyle wval="NormalWeb" />
@@ -409,7 +408,18 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
+                        </wr>
+                        <wr wrsidR="008D7156">
+                            <wrPr>
+                                <wrFonts wascii="Lotus Linotype" whAnsi="Lotus Linotype" wcs="Lotus Linotype" />
+                                <wb />
+                                <wbCs />
+                                <wsz wval="30" />
+                                <wszCs wval="30" />
+                                <wlang wbidi="ar-EG" />
+                            </wrPr>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="00644BEF" wrsidP="00644BEF">
@@ -432,7 +442,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (1</wt>
+                            <wt xml:space="preserve"> (1</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -460,7 +470,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وقت الصوم</wt>
+                            <wt xml:space="preserve"> وقت الصوم</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -479,7 +489,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="007C23BE" wrsidRPr="00D1297E" wrsidRDefault="00644BEF" wrsidP="00644BEF">
@@ -502,7 +512,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (2</wt>
+                            <wt xml:space="preserve"> (2</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -530,7 +540,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أركان الصوم</wt>
+                            <wt xml:space="preserve"> أركان الصوم</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -563,7 +573,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (3</wt>
+                            <wt xml:space="preserve"> (3</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -591,7 +601,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> حكم التماس هلال رمضان</wt>
+                            <wt xml:space="preserve"> حكم التماس هلال رمضان</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -624,7 +634,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (4</wt>
+                            <wt xml:space="preserve"> (4</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -652,7 +662,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> طرق ثبوت هلال رمضان</wt>
+                            <wt xml:space="preserve"> طرق ثبوت هلال رمضان</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -685,7 +695,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (5</wt>
+                            <wt xml:space="preserve"> (5</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -713,7 +723,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> حكم صوم يوم الشك</wt>
+                            <wt xml:space="preserve"> حكم صوم يوم الشك</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -746,7 +756,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (6</wt>
+                            <wt xml:space="preserve"> (6</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -774,7 +784,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> طرق ثبوت هلال شوال وذي الحجة</wt>
+                            <wt xml:space="preserve"> طرق ثبوت هلال شوال وذي الحجة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -807,7 +817,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (7</wt>
+                            <wt xml:space="preserve"> (7</wt>
                         </wr>
                         <wproofErr wtype="gramStart" />
                         <wr>
@@ -835,7 +845,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> بين ما يثبت به هلال رمضان وما يثبت به هلال شوال وذي الحجة</wt>
+                            <wt xml:space="preserve"> بين ما يثبت به هلال رمضان وما يثبت به هلال شوال وذي الحجة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -921,7 +931,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve"> ET</wt>
+                            <wt xml:space="preserve"> ET</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="0071061F" wrsidRPr="00B95CD4" wrsidRDefault="00090AFB" wrsidP="008B0021">
@@ -955,7 +965,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -973,7 +983,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -1045,7 +1055,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -1067,7 +1077,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> {</wt>
+                            <wt xml:space="preserve"> {</wt>
                         </wr>
                         <wr wrsidRPr="003F274A">
                             <wrPr>
@@ -1098,7 +1108,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>البقرة 187</wt>
+                            <wt>البقرة: 187</wt>
                         </wr>
                         <wr wrsidRPr="003F274A">
                             <wrPr>
@@ -1131,7 +1141,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00B95CD4" wrsidRPr="00B95CD4" wrsidRDefault="008B4D70" wrsidP="00DE384B">
@@ -1158,7 +1168,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">قال </wt>
+                            <wt xml:space="preserve">قال </wt>
                         </wr>
                         <wr wrsidR="0071061F" wrsidRPr="003F274A">
                             <wrPr>
@@ -1169,7 +1179,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>أبو عبيد</wt>
+                            <wt>أبو عبيد:</wt>
                         </wr>
                         <wr wrsidR="0071061F" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1178,7 +1188,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1187,7 +1197,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>الخيط الأبيض الصبح الصادق، أباح الأكل والشرب إلى طلوع الفجر فيحرم عنده</wt>
+                            <wt>الخيط الأبيض: الصبح الصادق، أباح الأكل والشرب إلى طلوع الفجر فيحرم عنده</wt>
                         </wr>
                         <wr wrsidR="00B95CD4" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1197,7 +1207,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B95CD4" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1208,7 +1218,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">أي </wt>
+                            <wt xml:space="preserve">أي </wt>
                         </wr>
                         <wr wrsidR="00DE384B">
                             <wrPr>
@@ -1230,7 +1240,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> وقت طلوع الفجر</wt>
+                            <wt xml:space="preserve"> وقت طلوع الفجر</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -1252,7 +1262,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="008B4D70" wrsidRDefault="008B4D70" wrsidP="00B95CD4">
@@ -1295,7 +1305,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> فلقوله</wt>
+                            <wt xml:space="preserve"> فلقوله</wt>
                         </wr>
                         <wr wrsidR="0071061F" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1304,7 +1314,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1313,7 +1323,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">عليه الصلاة والسلام </wt>
+                            <wt xml:space="preserve">عليه الصلاة والسلام: </wt>
                         </wr>
                         <wr wrsidRPr="003F274A">
                             <wrPr>
@@ -1355,7 +1365,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="005E7F7A" wrsidRPr="005E7F7A" wrsidRDefault="005E7F7A" wrsidP="005E7F7A">
@@ -1413,7 +1423,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="0071061F" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1426,7 +1436,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt>أركان الصوم</wt>
+                            <wt>أركان الصوم:</wt>
                         </wr>
                         <wr wrsidRPr="003F274A">
                             <wrPr>
@@ -1435,7 +1445,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00956CFE">
                             <wrPr>
@@ -1482,7 +1492,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1491,7 +1501,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وهو الإمساك عن الأكل والشرب والجماع مع النية بشرط الطهارة عن الحيض والنفاس </wt>
+                            <wt xml:space="preserve">وهو الإمساك عن الأكل والشرب والجماع مع النية بشرط الطهارة عن الحيض والنفاس </wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -1533,7 +1543,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B95CD4" wrsidRPr="00DF6976">
                             <wrPr>
@@ -1553,7 +1563,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00DF6976">
                             <wrPr>
@@ -1571,7 +1581,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidRPr="00DF6976">
                             <wrPr>
@@ -1580,7 +1590,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> الإمساك لغة، زدنا عليه</wt>
+                            <wt xml:space="preserve"> الإمساك لغة، زدنا عليه</wt>
                         </wr>
                         <wr wrsidR="00DF6976" wrsidRPr="00DF6976">
                             <wrPr>
@@ -1590,7 +1600,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00DF6976" wrsidRDefault="00DF6976" wrsidP="00C56514">
@@ -1627,7 +1637,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1636,7 +1646,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">النية ليقع </wt>
+                            <wt xml:space="preserve">النية: ليقع </wt>
                         </wr>
                         <whyperlink rid="rId5" wanchor="قربة__" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -1660,7 +1670,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B95CD4">
                             <wrPr>
@@ -1679,7 +1689,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، وهي </wt>
+                            <wt xml:space="preserve">، وهي: </wt>
                         </wr>
                         <wr wrsidR="00C56514" wrsidRPr="00DE384B">
                             <wrPr>
@@ -1734,7 +1744,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00C56514" wrsidRPr="00DF6976">
                             <wrPr>
@@ -1753,7 +1763,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">الطهارة من الحيض والنفاس ليتحقق </wt>
+                            <wt xml:space="preserve">الطهارة من الحيض والنفاس: ليتحقق </wt>
                         </wr>
                         <whyperlink rid="rId6" wanchor="الأداء_" whistory="1">
                             <wr wrsidR="00C56514" wrsidRPr="00B95CD4">
@@ -1777,7 +1787,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00C56514" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -1818,7 +1828,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00DF6976" wrsidRPr="00EC32F0">
                             <wrPr>
@@ -1837,7 +1847,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00C56514">
                             <wrPr>
@@ -1864,7 +1874,7 @@
                                 <wszCs wval="48" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="003E1C33" wrsidRDefault="003E1C33" wrsidP="003E1C33">
@@ -1961,7 +1971,7 @@
                                 <wszCs wval="30" />
                             </wrPr>
                         </wpPr>
-                        <wbookmarkStart wid="2" wname="أحكام_التماس_هلال_رمضان_وثبوته" />
+                        <wbookmarkStart wid="2" wname="أحكام_التماس_هلال_رمضان_وثبوته:" />
                         <wr>
                             <wrPr>
                                 <wsz wval="30" />
@@ -2003,7 +2013,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00906AE5">
                             <wrPr>
@@ -2024,7 +2034,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wbookmarkEnd wid="2" />
                         <wr wrsidR="00B356D3" wrsidRPr="00906AE5">
@@ -2034,7 +2044,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="001977FC">
                             <wrPr>
@@ -2078,7 +2088,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ويجب أن يلتمس الناس الهلال في التا</wt>
+                            <wt xml:space="preserve"> ويجب أن يلتمس الناس الهلال في التا</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -2096,7 +2106,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -2138,7 +2148,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF">
                             <wrPr>
@@ -2149,7 +2159,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00B356D3" wrsidRDefault="008B4D70" wrsidP="00FA6DFB">
@@ -2176,7 +2186,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وهو المأثور عنه- عليه الصلاة والسلام- وعن </wt>
+                            <wt xml:space="preserve">وهو المأثور عنه- عليه الصلاة والسلام- وعن </wt>
                         </wr>
                         <whyperlink rid="rId7" wanchor="السلف_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2241,7 +2251,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2283,7 +2293,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">لقوله- عليه الصلاة والسلام </wt>
+                            <wt xml:space="preserve">لقوله- عليه الصلاة والسلام: </wt>
                         </wr>
                         <wr wrsidRPr="00D1767E">
                             <wrPr>
@@ -2334,7 +2344,7 @@
                                 <wsz wval="30" />
                                 <wszCs wval="30" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00090AFB" wrsidRPr="00090AFB">
                             <wrPr>
@@ -2412,7 +2422,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> الحكم إذا كان بالسماء علة </wt>
+                            <wt xml:space="preserve"> الحكم إذا كان بالسماء علة </wt>
                         </wr>
                         <wr wrsidRPr="00806FDA">
                             <wrPr>
@@ -2455,7 +2465,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2464,7 +2474,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وإن كان بالسماء </wt>
+                            <wt xml:space="preserve">وإن كان بالسماء </wt>
                         </wr>
                         <whyperlink rid="rId9" wanchor="علة__" whistory="1">
                             <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
@@ -2488,7 +2498,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2515,7 +2525,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -2558,7 +2568,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2567,7 +2577,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> فلما تقدم من حديث الأعرابي، ولأنه أمر ديني </wt>
+                            <wt xml:space="preserve"> فلما تقدم من حديث الأعرابي، ولأنه أمر ديني </wt>
                         </wr>
                         <wr wrsidR="00001649">
                             <wrPr>
@@ -2594,7 +2604,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> والإخبار عن نجاسة الماء وطهارته، ولا يشترط فيه لفظ الشهادة</wt>
+                            <wt xml:space="preserve"> والإخبار عن نجاسة الماء وطهارته، ولا يشترط فيه لفظ الشهادة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -2627,7 +2637,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وأما </wt>
+                            <wt xml:space="preserve">وأما </wt>
                         </wr>
                         <whyperlink rid="rId10" wanchor="العدالة_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2652,7 +2662,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2662,7 +2672,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2671,7 +2681,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">فلأنه من أخبار </wt>
+                            <wt xml:space="preserve">فلأنه من أخبار </wt>
                         </wr>
                         <wr wrsidRPr="00DE384B">
                             <wrPr>
@@ -2689,7 +2699,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، فتشترط </wt>
+                            <wt xml:space="preserve">، فتشترط </wt>
                         </wr>
                         <whyperlink rid="rId11" wanchor="العدالة_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2713,7 +2723,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00001649">
                             <wrPr>
@@ -2740,7 +2750,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00706F36" wrsidRDefault="008B4D70" wrsidP="00001649">
@@ -2764,7 +2774,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وتقبل شهادة المحدود في </wt>
+                            <wt xml:space="preserve">وتقبل شهادة المحدود في </wt>
                         </wr>
                         <whyperlink rid="rId12" wanchor="القذف_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2788,7 +2798,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2824,7 +2834,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00C836A4" wrsidRDefault="008B4D70" wrsidP="000C7EB9">
@@ -2849,7 +2859,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وفي </wt>
+                            <wt xml:space="preserve">وفي </wt>
                         </wr>
                         <whyperlink rid="rId13" wanchor="مستور_الحال_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2873,7 +2883,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -2882,7 +2892,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">خلاف بين </wt>
+                            <wt xml:space="preserve">خلاف بين </wt>
                         </wr>
                         <whyperlink rid="rId14" wanchor="الأصحاب_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -2940,7 +2950,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -2959,7 +2969,7 @@
                                 <wszCs wval="28" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -3056,7 +3066,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">؟ </wt>
+                            <wt xml:space="preserve">؟ </wt>
                         </wr>
                         <wr wrsidR="00EE1BA2" wrsidRPr="00EE1BA2">
                             <wrPr>
@@ -3066,7 +3076,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>أقوال في المذهب</wt>
+                            <wt>أقوال في المذهب:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="000C48A3" wrsidRDefault="00EE1BA2" wrsidP="000C48A3">
@@ -3100,7 +3110,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3109,7 +3119,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">قال </wt>
+                            <wt xml:space="preserve">قال </wt>
                         </wr>
                         <whyperlink rid="rId15" wanchor="محمد_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -3133,7 +3143,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3142,7 +3152,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">يفطرون بناء على ثبوت الرمضانية بشهادة الواحد، وإن كان الفطر لا يثبت به ابتداء كالإرث بناء على ثبوت النسب بقول </wt>
+                            <wt xml:space="preserve">يفطرون بناء على ثبوت الرمضانية بشهادة الواحد، وإن كان الفطر لا يثبت به ابتداء كالإرث بناء على ثبوت النسب بقول </wt>
                         </wr>
                         <whyperlink rid="rId16" wanchor="القابلة__" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -3175,7 +3185,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="000C48A3" wrsidRDefault="00EE1BA2" wrsidP="000C48A3">
@@ -3211,7 +3221,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3220,7 +3230,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وروى </wt>
+                            <wt xml:space="preserve">وروى </wt>
                         </wr>
                         <whyperlink rid="rId17" wanchor="الحسن_بن_زياد_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -3244,7 +3254,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3253,7 +3263,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">عن </wt>
+                            <wt xml:space="preserve">عن </wt>
                         </wr>
                         <whyperlink rid="rId18" wanchor="أبو_حنيفة_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -3277,7 +3287,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3295,7 +3305,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أخذًا بالاحتياط</wt>
+                            <wt xml:space="preserve"> أخذًا بالاحتياط</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -3329,7 +3339,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وقال </wt>
+                            <wt xml:space="preserve">وقال </wt>
                         </wr>
                         <whyperlink rid="rId19" wanchor="محمد_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -3353,7 +3363,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">- </wt>
+                            <wt xml:space="preserve">- </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3380,7 +3390,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> الله لا أتهم مسلم</wt>
+                            <wt xml:space="preserve"> الله: لا أتهم مسلم</wt>
                         </wr>
                         <wr wrsidR="00AA0AE8">
                             <wrPr>
@@ -3441,7 +3451,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -3461,7 +3471,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -3503,7 +3513,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00AA0AE8">
                             <wrPr>
@@ -3530,7 +3540,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> شهادته صام</wt>
+                            <wt xml:space="preserve"> شهادته صام</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -3563,7 +3573,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">لأنه رآه، فإن أفطر قضى لوجوب </wt>
+                            <wt xml:space="preserve">لأنه رآه، فإن أفطر قضى لوجوب </wt>
                         </wr>
                         <whyperlink rid="rId20" wanchor="الأداء_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -3587,7 +3597,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B8455F">
                             <wrPr>
@@ -3614,7 +3624,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="008B4D70" wrsidRDefault="008B4D70" wrsidP="00EE1BA2">
@@ -3773,7 +3783,7 @@
                                 <wszCs wval="36" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -3794,7 +3804,7 @@
                                 <wszCs wval="36" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00C836A4">
                             <wrPr>
@@ -3837,7 +3847,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وإن لم يكن بالسماء </wt>
+                            <wt xml:space="preserve">وإن لم يكن بالسماء </wt>
                         </wr>
                         <whyperlink rid="rId21" wanchor="علة__" whistory="1">
                             <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
@@ -3861,7 +3871,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00644BEF" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -3879,7 +3889,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -3931,7 +3941,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> إلى رأي الإمام من غير تقدير</wt>
+                            <wt xml:space="preserve"> إلى رأي الإمام من غير تقدير</wt>
                         </wr>
                         <wr wrsidR="00B63098" wrsidRPr="00B63098">
                             <wrPr>
@@ -3951,7 +3961,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B63098" wrsidRPr="00B63098">
                             <wrPr>
@@ -3970,7 +3980,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">هو </wt>
+                            <wt xml:space="preserve">هو </wt>
                         </wr>
                         <whyperlink rid="rId22" wanchor="‏الصحيح_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -4002,7 +4012,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00B63098" wrsidRDefault="008B4D70" wrsidP="00CD72B0">
@@ -4026,7 +4036,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <whyperlink rid="rId23" wanchor="المطالع_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -4050,7 +4060,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B63098">
                             <wrPr>
@@ -4189,7 +4199,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00B63098" wrsidRPr="00706F36">
                             <wrPr>
@@ -4295,7 +4305,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وروى </wt>
+                            <wt xml:space="preserve">وروى </wt>
                         </wr>
                         <whyperlink rid="rId24" wanchor="الحسن_بن_زياد_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -4319,7 +4329,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -4328,7 +4338,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">عن </wt>
+                            <wt xml:space="preserve">عن </wt>
                         </wr>
                         <whyperlink rid="rId25" wanchor="أبو_حنيفة_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -4352,7 +4362,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -4397,7 +4407,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> بش</wt>
+                            <wt xml:space="preserve"> بش</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -4481,7 +4491,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">شهادة رجل من خارج المصر </wt>
+                            <wt xml:space="preserve">شهادة رجل من خارج المصر </wt>
                         </wr>
                         <wr wrsidRPr="004D239F">
                             <wrPr>
@@ -4514,7 +4524,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ولو جاء رجل من خارج </wt>
+                            <wt xml:space="preserve">ولو جاء رجل من خارج </wt>
                         </wr>
                         <whyperlink rid="rId26" wanchor="المصر__" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -4538,7 +4548,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -4547,7 +4557,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وشهد به تقبل، وكذا إذا كان على مكان مرتفع في البلد </wt>
+                            <wt xml:space="preserve">وشهد به تقبل، وكذا إذا كان على مكان مرتفع في البلد </wt>
                         </wr>
                         <whyperlink rid="rId27" wanchor="المنارة__" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -4571,7 +4581,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -4589,7 +4599,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00706F36" wrsidRDefault="00FF6E47" wrsidP="00706F36">
@@ -4613,7 +4623,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00706F36">
                             <wrPr>
@@ -4655,7 +4665,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00706F36">
                             <wrPr>
@@ -4698,7 +4708,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00706F36">
                             <wrPr>
@@ -4727,7 +4737,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="001D0B28">
                             <wrPr>
@@ -4832,7 +4842,7 @@
                                 <wrtl />
                             </wrPr>
                         </wpPr>
-                        <wbookmarkStart wid="3" wname="اختلاف_المطالع_" />
+                        <wbookmarkStart wid="3" wname="اختلاف_المطالع_:" />
                     </wp>
                     <wp wrsidR="009A0341" wrsidRDefault="009A0341">
                         <wpPr>
@@ -4886,7 +4896,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="001D0B28" wrsidRPr="009A0341">
                             <wrPr>
@@ -4896,7 +4906,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">أقوال الفقهاء في </wt>
+                            <wt xml:space="preserve">أقوال الفقهاء في </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="009A0341">
                             <wrPr>
@@ -4917,7 +4927,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidRPr="00D1767E">
                             <wrPr>
@@ -4927,7 +4937,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="001977FC">
                             <wrPr>
@@ -4971,7 +4981,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> فإذا ثبت في بلد لزم جميع الناس ولا اعتبار باختلاف </wt>
+                            <wt xml:space="preserve"> فإذا ثبت في بلد لزم جميع الناس ولا اعتبار باختلاف </wt>
                         </wr>
                         <whyperlink rid="rId28" wanchor="المطالع_" whistory="1">
                             <wr wrsidR="00644BEF" wrsidRPr="001D0B28">
@@ -4996,7 +5006,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -5039,7 +5049,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5048,7 +5058,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">هكذا ذكره </wt>
+                            <wt xml:space="preserve">هكذا ذكره </wt>
                         </wr>
                         <whyperlink rid="rId29" wanchor="قاضيخان" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -5073,7 +5083,7 @@
                                     <wu wval="none" />
                                     <wrtl />
                                 </wrPr>
-                                <wt xmlspace="preserve"></wt>
+                                <wt xml:space="preserve"></wt>
                             </wr>
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                                 <wrPr>
@@ -5106,7 +5116,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5115,7 +5125,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">قال وهو </wt>
+                            <wt xml:space="preserve">قال: وهو </wt>
                         </wr>
                         <whyperlink rid="rId30" wanchor="ظاهر_الرواية" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -5139,7 +5149,7 @@
                                 <wu wval="none" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="001D0B28">
                             <wrPr>
@@ -5157,7 +5167,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> عن </wt>
+                            <wt xml:space="preserve"> عن </wt>
                         </wr>
                         <whyperlink rid="rId31" wanchor="شمس_الأئمة_السرخسي_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -5214,7 +5224,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5223,7 +5233,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وقيل يختلف باختلاف </wt>
+                            <wt xml:space="preserve">وقيل: يختلف باختلاف </wt>
                         </wr>
                         <whyperlink rid="rId32" wanchor="المطالع_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -5280,7 +5290,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidRPr="001D0B28">
                             <wrPr>
@@ -5298,7 +5308,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أهل مصرٍ ثلاثين يومًا برؤية، و</wt>
+                            <wt xml:space="preserve"> أهل مصرٍ ثلاثين يومًا برؤية، و</wt>
                         </wr>
                         <wr wrsidRPr="001D0B28">
                             <wrPr>
@@ -5325,7 +5335,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> تسعة وعشرين</wt>
+                            <wt xml:space="preserve"> تسعة وعشرين</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -5359,7 +5369,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وذكر في </wt>
+                            <wt xml:space="preserve">وذكر في </wt>
                         </wr>
                         <wr wrsidRPr="00FA6DFB">
                             <wrPr>
@@ -5380,7 +5390,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">الفتاوى الحسامية» </wt>
+                            <wt xml:space="preserve">الفتاوى الحسامية»: </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5398,7 +5408,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="001D0B28" wrsidRDefault="00FA6DFB" wrsidP="00FA6DFB">
@@ -5432,7 +5442,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5441,7 +5451,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00FA6DFB">
                             <wrPr>
@@ -5460,7 +5470,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">عليهم قضاء يوم، إن كان بين المِصرَينِ قرب بحيث تتحد </wt>
+                            <wt xml:space="preserve">عليهم قضاء يوم، إن كان بين المِصرَينِ قرب بحيث تتحد </wt>
                         </wr>
                         <whyperlink rid="rId33" wanchor="المطالع_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -5518,7 +5528,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00FA6DFB" wrsidRPr="00FA6DFB">
                             <wrPr>
@@ -5537,7 +5547,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5556,7 +5566,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ذكر في </wt>
+                            <wt xml:space="preserve">ذكر في </wt>
                         </wr>
                         <wr wrsidRPr="00FA6DFB">
                             <wrPr>
@@ -5577,7 +5587,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">المنتقى» </wt>
+                            <wt xml:space="preserve">المنتقى» </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5586,7 +5596,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">عن </wt>
+                            <wt xml:space="preserve">عن </wt>
                         </wr>
                         <whyperlink rid="rId34" wanchor="أبو_يوسف_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -5610,7 +5620,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5654,7 +5664,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00FA6DFB">
                             <wrPr>
@@ -5663,7 +5673,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5672,7 +5682,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وعن </wt>
+                            <wt xml:space="preserve">وعن </wt>
                         </wr>
                         <whyperlink rid="rId35" wanchor="ابن_عباس_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -5696,7 +5706,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5705,7 +5715,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>في مثله لهم مالهم ولنا مالنا</wt>
+                            <wt>في مثله: لهم مالهم ولنا مالنا</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -5739,7 +5749,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وعن </wt>
+                            <wt xml:space="preserve">وعن </wt>
                         </wr>
                         <whyperlink rid="rId36" wanchor="عائشة" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -5763,7 +5773,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">- </wt>
+                            <wt xml:space="preserve">- </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -5772,7 +5782,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>رضي الله عنها فطر كل بلدة يوم يفطر جماعتهم، وأضحى كل بلدة يوم يضحي جماعتهم</wt>
+                            <wt>رضي الله عنها: فطر كل بلدة يوم يفطر جماعتهم، وأضحى كل بلدة يوم يضحي جماعتهم</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -5816,7 +5826,7 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                         </wpPr>
-                        <wbookmarkStart wid="4" wname="حكم_صوم_يوم_الشك" />
+                        <wbookmarkStart wid="4" wname="حكم_صوم_يوم_الشك:" />
                         <wr wrsidRPr="001977FC">
                             <wrPr>
                                 <wrFonts wasciiTheme="minorBidi" whAnsiTheme="minorBidi" />
@@ -5834,7 +5844,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="009A0341">
                             <wrPr>
@@ -5854,7 +5864,7 @@
                                 <wsz wval="32" />
                                 <wszCs wval="32" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="001977FC">
                             <wrPr>
@@ -5887,7 +5897,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>قَالَ</wt>
+                            <wt>قَالَ:</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -5929,7 +5939,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> (وَلَا يُصَامُ يَوْمُ الشَّكِّ إِلَّا تَطَوُّعًا)</wt>
+                            <wt xml:space="preserve"> (وَلَا يُصَامُ يَوْمُ الشَّكِّ إِلَّا تَطَوُّعًا)</wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="001977FC">
                             <wrPr>
@@ -5938,7 +5948,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -5971,7 +5981,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">لقوله - عليه الصلاة والسلام - </wt>
+                            <wt xml:space="preserve">لقوله - عليه الصلاة والسلام -: </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6015,7 +6025,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وهو الذي يشك فيه أنه من رمضان أو شعبان، وذلك بأن يتحدث الناس بالرؤية ولا تثبت</wt>
+                            <wt xml:space="preserve"> وهو الذي يشك فيه أنه من رمضان أو شعبان، وذلك بأن يتحدث الناس بالرؤية ولا تثبت</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6056,7 +6066,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="006D2962" wrsidRPr="006D2962">
                             <wrPr>
@@ -6065,7 +6075,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">واختلف العلماء في يوم الشك هل صومه أفضل أم الفطر؟ قالوا </wt>
+                            <wt xml:space="preserve">واختلف العلماء في يوم الشك هل صومه أفضل أم الفطر؟ قالوا: </wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00886E7D" wrsidRDefault="00886E7D" wrsidP="00886E7D">
@@ -6090,7 +6100,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">(1) </wt>
+                            <wt xml:space="preserve">(1) </wt>
                         </wr>
                         <wr wrsidR="006D2962" wrsidRPr="006D2962">
                             <wrPr>
@@ -6108,7 +6118,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وافق صوما كان يصومه فصومه أفضل</wt>
+                            <wt xml:space="preserve"> وافق صوما كان يصومه فصومه أفضل</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6151,7 +6161,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وإن لم يكن كذلك</wt>
+                            <wt xml:space="preserve"> وإن لم يكن كذلك</wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -6160,7 +6170,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6204,7 +6214,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="006D2962" wrsidRPr="006D2962">
                             <wrPr>
@@ -6213,7 +6223,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>قال محمد بن سلمة الفطر أفضل بناء على الحديث</wt>
+                            <wt>قال محمد بن سلمة: الفطر أفضل بناء على الحديث</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6258,7 +6268,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="006D2962" wrsidRPr="006D2962">
                             <wrPr>
@@ -6267,7 +6277,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>وقال نصير بن يحيى الصوم أفضل لما روينا عن علي وعائشة</wt>
+                            <wt>وقال نصير بن يحيى: الصوم أفضل لما روينا عن علي وعائشة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6311,7 +6321,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="006D2962" wrsidRPr="006D2962">
                             <wrPr>
@@ -6347,7 +6357,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ولا كذلك العامة</wt>
+                            <wt xml:space="preserve"> ولا كذلك العامة</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -6365,7 +6375,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6505,7 +6515,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ولا يصومون </wt>
+                            <wt xml:space="preserve">ولا يصومون </wt>
                         </wr>
                         <whyperlink rid="rId37" wanchor="يوم_الشك_" whistory="1">
                             <wr wrsidRPr="006D2962">
@@ -6530,7 +6540,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6551,7 +6561,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt> «</wt>
+                            <wt>: «</wt>
                         </wr>
                         <whyperlink rid="rId38" wanchor="لا_يصام_اليوم_الذي_يشك_فيه_أنه_من_رمضان_إلا_تطوعا__" whistory="1">
                             <wr wrsidRPr="006D2962">
@@ -6564,7 +6574,7 @@
                                     <wu wval="none" />
                                     <wrtl />
                                 </wrPr>
-                                <wt xmlspace="preserve">لا يصام اليوم الذي يشك فيه أنه من </wt>
+                                <wt xml:space="preserve">لا يصام اليوم الذي يشك فيه أنه من </wt>
                             </wr>
                         </whyperlink>
                         <whyperlink rid="rId39" wanchor="لا_يصام_اليوم_الذي_يشك_فيه_أنه_من_رمضان_إلا_تطوعا__" whistory="1">
@@ -6626,7 +6636,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وهذه المسألة على </wt>
+                            <wt xml:space="preserve"> وهذه المسألة على </wt>
                         </wr>
                         <wr wrsidR="00C536C0" wrsidRPr="006D2962">
                             <wrPr>
@@ -6636,7 +6646,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">خمسة </wt>
+                            <wt xml:space="preserve">خمسة </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6646,7 +6656,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>وجوه</wt>
+                            <wt>وجوه:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00C75806" wrsidRPr="006D2962" wrsidRDefault="008B4D70" wrsidP="00B025D1">
@@ -6672,7 +6682,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">أحدها </wt>
+                            <wt xml:space="preserve">أحدها: </wt>
                         </wr>
                         <wr wrsidR="00C75806" wrsidRPr="006D2962">
                             <wrPr>
@@ -6728,7 +6738,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6748,7 +6758,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidR="009A0341" wrsidRPr="006D2962">
                             <wrPr>
@@ -6794,7 +6804,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00C75806" wrsidRPr="006D2962">
                             <wrPr>
@@ -6814,7 +6824,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6824,7 +6834,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ولأنه تشبه بأهل </wt>
+                            <wt xml:space="preserve">ولأنه تشبه بأهل </wt>
                         </wr>
                         <wr wrsidR="00C75806" wrsidRPr="006D2962">
                             <wrPr>
@@ -6886,7 +6896,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6942,7 +6952,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -6952,7 +6962,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وإن ظهر أنه من شعبان </wt>
+                            <wt xml:space="preserve">وإن ظهر أنه من شعبان </wt>
                         </wr>
                         <wr wrsidR="00C75806" wrsidRPr="006D2962">
                             <wrPr>
@@ -6999,7 +7009,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وإن أفطر لم يقضه لأنه في معنى المظنون</wt>
+                            <wt xml:space="preserve"> وإن أفطر لم يقضه لأنه في معنى المظنون</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -7036,7 +7046,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>والثاني</wt>
+                            <wt>والثاني:</wt>
                         </wr>
                         <wr wrsidR="00250B38" wrsidRPr="006D2962">
                             <wrPr>
@@ -7046,7 +7056,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7066,7 +7076,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7076,7 +7086,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">لما روينا، </wt>
+                            <wt xml:space="preserve">لما روينا، </wt>
                         </wr>
                         <wr wrsidR="00FF0668" wrsidRPr="006D2962">
                             <wrPr>
@@ -7158,7 +7168,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ثم إن ظهر أنه </wt>
+                            <wt xml:space="preserve"> ثم إن ظهر أنه </wt>
                         </wr>
                         <wr wrsidR="00CE5A92" wrsidRPr="006D2962">
                             <wrPr>
@@ -7213,7 +7223,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00CE5A92" wrsidRPr="006D2962">
                             <wrPr>
@@ -7223,7 +7233,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>تنبيه</wt>
+                            <wt>تنبيه:</wt>
                         </wr>
                         <wr wrsidR="00CE5A92" wrsidRPr="006D2962">
                             <wrPr>
@@ -7233,7 +7243,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7253,7 +7263,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> يوم الشك</wt>
+                            <wt xml:space="preserve"> يوم الشك</wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7263,7 +7273,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أنه من شعبان فقد قيل</wt>
+                            <wt xml:space="preserve"> أنه من شعبان فقد قيل:</wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00FF0668" wrsidRPr="006D2962" wrsidRDefault="008B4D70" wrsidP="00FF0668">
@@ -7289,7 +7299,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00CE5A92" wrsidRPr="006D2962">
                             <wrPr>
@@ -7299,7 +7309,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">(1) </wt>
+                            <wt xml:space="preserve">(1) </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7309,7 +7319,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">يكون تطوعًا </wt>
+                            <wt xml:space="preserve">يكون تطوعًا </wt>
                         </wr>
                         <wr wrsidR="00FF0668" wrsidRPr="006D2962">
                             <wrPr>
@@ -7354,7 +7364,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00CE5A92" wrsidRPr="006D2962">
                             <wrPr>
@@ -7364,7 +7374,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">(2) </wt>
+                            <wt xml:space="preserve">(2) </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7374,7 +7384,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وقيل يجزئه عن الذي نواه وهو </wt>
+                            <wt xml:space="preserve">وقيل: يجزئه عن الذي نواه وهو </wt>
                         </wr>
                         <whyperlink rid="rId40" wanchor="الأصح_" whistory="1">
                             <wr wrsidRPr="006D2962">
@@ -7435,7 +7445,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>والثالث</wt>
+                            <wt>والثالث:</wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7445,7 +7455,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أن ينوي التطوع وهو غير مكروه لما روينا، وهو حجة على </wt>
+                            <wt xml:space="preserve"> أن ينوي التطوع وهو غير مكروه لما روينا، وهو حجة على </wt>
                         </wr>
                         <whyperlink rid="rId41" wanchor="الشافعي" whistory="1">
                             <wr wrsidRPr="006D2962">
@@ -7470,7 +7480,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">- </wt>
+                            <wt xml:space="preserve">- </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7480,7 +7490,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>رحمه الله- في قوله يكره على سبيل الابتداء</wt>
+                            <wt>رحمه الله- في قوله: يكره على سبيل الابتداء</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -7516,7 +7526,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">والمراد بقوله صلى الله عليه </wt>
+                            <wt xml:space="preserve">والمراد بقوله صلى الله عليه </wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7536,7 +7546,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> «لا تتقدموا رمضان </wt>
+                            <wt xml:space="preserve">: «لا تتقدموا رمضان </wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7546,7 +7556,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">بصوم يوم ولا بصوم يومين» </wt>
+                            <wt xml:space="preserve">بصوم يوم ولا بصوم يومين» </wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7595,7 +7605,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>توجيه الحديث</wt>
+                            <wt>توجيه الحديث:</wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7605,7 +7615,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> التقدم بصوم رمضان لأنه يؤديه قبل أوانه، ثم إن وافق صومًا كان يصومه فالصوم أفضل ب</wt>
+                            <wt xml:space="preserve"> التقدم بصوم رمضان لأنه يؤديه قبل أوانه، ثم إن وافق صومًا كان يصومه فالصوم أفضل ب</wt>
                         </wr>
                         <whyperlink rid="rId42" wanchor="الإجماع_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="006D2962">
@@ -7629,7 +7639,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>، وكذا إذا صام ثلاثة أيام من آخر الشهر فصاعدًا وإن أفرده، فقد قيل الفطر أفضل احترازًا عن ظاهر النهي، وقد قيل الصوم أفضل اقتداء بعلي و</wt>
+                            <wt>، وكذا إذا صام ثلاثة أيام من آخر الشهر فصاعدًا وإن أفرده، فقد قيل: الفطر أفضل احترازًا عن ظاهر النهي، وقد قيل: الصوم أفضل اقتداء بعلي و</wt>
                         </wr>
                         <whyperlink rid="rId43" wanchor="عائشة" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="006D2962">
@@ -7654,7 +7664,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve">- </wt>
+                            <wt xml:space="preserve">- </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7689,7 +7699,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7724,7 +7734,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7734,7 +7744,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">إلى وقت </wt>
+                            <wt xml:space="preserve">إلى وقت </wt>
                         </wr>
                         <whyperlink rid="rId46" wanchor="الزوال__" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="006D2962">
@@ -7759,7 +7769,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="006D2962">
                             <wrPr>
@@ -7806,7 +7816,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>والرابع</wt>
+                            <wt>والرابع:</wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7816,7 +7826,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أن يضجع في أصل النية بأن ينوي أن يصوم غدًا إن كان من رمضان، ولا يصومه إن كان من شعبان، وفي هذا الوجه لا يصير صائمًا لأنه لم يقطع عزيمته، فصار كما إذا نوى أنه إن وجد غذاء يفطر وإن لم يجد يصوم</wt>
+                            <wt xml:space="preserve"> أن يضجع في أصل النية بأن ينوي أن يصوم غدًا إن كان من رمضان، ولا يصومه إن كان من شعبان، وفي هذا الوجه لا يصير صائمًا لأنه لم يقطع عزيمته، فصار كما إذا نوى أنه إن وجد غذاء يفطر وإن لم يجد يصوم</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -7853,7 +7863,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>والخامس</wt>
+                            <wt>والخامس:</wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7863,7 +7873,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أن يضجع في وصف النية بأن ينوي إن كان غدًا من رمضان يصوم عنه، وإن كان من شعبان فعن واجب آخر، وهذا</wt>
+                            <wt xml:space="preserve"> أن يضجع في وصف النية بأن ينوي إن كان غدًا من رمضان يصوم عنه، وإن كان من شعبان فعن واجب آخر، وهذا</wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7873,7 +7883,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> مكروه لتردده بين أمرين مكروهين</wt>
+                            <wt xml:space="preserve"> مكروه لتردده بين أمرين مكروهين</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -7909,7 +7919,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ثم إن ظهر أنه من رمضان</wt>
+                            <wt xml:space="preserve"> ثم إن ظهر أنه من رمضان</wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7919,7 +7929,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أجزأه لعدم التردد في أصل النية</wt>
+                            <wt xml:space="preserve"> أجزأه لعدم التردد في أصل النية</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -7955,7 +7965,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وإن ظهر أنه من شعبان لا يجزئه عن واجب آخر؛ لأن الجهة لم تثبت لل</wt>
+                            <wt xml:space="preserve"> وإن ظهر أنه من شعبان لا يجزئه عن واجب آخر؛ لأن الجهة لم تثبت لل</wt>
                         </wr>
                         <wr wrsidR="002A22F5" wrsidRPr="006D2962">
                             <wrPr>
@@ -7975,7 +7985,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -7985,7 +7995,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وأصل النية لا يكفيه لكنه يكون تطوعًا غير </wt>
+                            <wt xml:space="preserve">وأصل النية لا يكفيه لكنه يكون تطوعًا غير </wt>
                         </wr>
                         <wr wrsidR="00085285" wrsidRPr="006D2962">
                             <wrPr>
@@ -8031,7 +8041,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00886E7D" wrsidRPr="001977FC">
                             <wrPr>
@@ -8050,7 +8060,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -8106,7 +8116,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ثم إن ظهر</wt>
+                            <wt xml:space="preserve"> ثم إن ظهر</wt>
                         </wr>
                         <wr wrsidR="00085285" wrsidRPr="006D2962">
                             <wrPr>
@@ -8116,7 +8126,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أنه من رمضان أجزأه عنه لما مر</wt>
+                            <wt xml:space="preserve"> أنه من رمضان أجزأه عنه لما مر</wt>
                         </wr>
                         <wr wrsidR="00085285" wrsidRPr="006D2962">
                             <wrPr>
@@ -8126,7 +8136,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidRPr="006D2962">
                             <wrPr>
@@ -8311,7 +8321,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00D76C63">
                             <wrPr>
@@ -8321,7 +8331,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ثبوت هلال شوال وذي الحجة </wt>
+                            <wt xml:space="preserve">ثبوت هلال شوال وذي الحجة </wt>
                         </wr>
                         <wbookmarkEnd wid="5" />
                         <wr wrsidR="00085285" wrsidRPr="00D76C63">
@@ -8342,7 +8352,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="001977FC">
                             <wrPr>
@@ -8384,7 +8394,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> قال (ويلتمس هلال شوال في التاسع والعشرين من رمضان، فمن رآه وحده لا يفطر</wt>
+                            <wt xml:space="preserve"> قال: (ويلتمس هلال شوال في التاسع والعشرين من رمضان، فمن رآه وحده لا يفطر</wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8403,7 +8413,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -8477,7 +8487,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> (فإن أفطر قضاه ولا كفارة عليه</wt>
+                            <wt xml:space="preserve"> (فإن أفطر قضاه ولا كفارة عليه</wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8496,7 +8506,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -8528,7 +8538,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00085285" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8555,7 +8565,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00085285" wrsidRPr="00085285">
                             <wrPr>
@@ -8607,7 +8617,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> (فإن كان بالسماء </wt>
+                            <wt xml:space="preserve"> (فإن كان بالسماء </wt>
                         </wr>
                         <whyperlink rid="rId47" wanchor="علة__" whistory="1">
                             <wr wrsidR="00EA7B0B" wrsidRPr="007A1531">
@@ -8627,7 +8637,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> قبل شهادة رجلين أو رجل وامرأتين)</wt>
+                            <wt xml:space="preserve"> قبل شهادة رجلين أو رجل وامرأتين)</wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="001977FC">
                             <wrPr>
@@ -8636,7 +8646,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -8711,7 +8721,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> (وإن لم يكن بها </wt>
+                            <wt xml:space="preserve"> (وإن لم يكن بها </wt>
                         </wr>
                         <whyperlink rid="rId48" wanchor="علة__" whistory="1">
                             <wr wrsidR="00EA7B0B" wrsidRPr="00B95CD4">
@@ -8735,7 +8745,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8753,7 +8763,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -8795,7 +8805,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">، </wt>
+                            <wt xml:space="preserve">، </wt>
                         </wr>
                         <wr wrsidRPr="00891757">
                             <wrPr>
@@ -8838,7 +8848,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وعن </wt>
+                            <wt xml:space="preserve"> وعن </wt>
                         </wr>
                         <whyperlink rid="rId49" wanchor="أبو_حنيفة_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -8862,7 +8872,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8914,7 +8924,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> (</wt>
+                            <wt xml:space="preserve"> (</wt>
                         </wr>
                         <wr wrsidR="00EA7B0B" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -8942,7 +8952,7 @@
                                 <wsz wval="36" />
                                 <wszCs wval="36" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr>
                             <wrPr>
@@ -8975,7 +8985,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">لما يتعلق به </wt>
+                            <wt xml:space="preserve">لما يتعلق به </wt>
                         </wr>
                         <wr wrsidR="00B11866">
                             <wrPr>
@@ -9026,7 +9036,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="004D239F">
                             <wrPr>
@@ -9036,7 +9046,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt>الحكم إذا رأى هلال رمضان أو شوال نهارًا قبل الزوال</wt>
+                            <wt>الحكم إذا رأى هلال رمضان أو شوال نهارًا قبل الزوال:</wt>
                         </wr>
                         <wr wrsidRPr="004D239F">
                             <wrPr>
@@ -9045,7 +9055,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="004D239F">
                             <wrPr>
@@ -9088,7 +9098,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9097,7 +9107,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وإذا رأى هلال رمضان أو شوال نهارًا قبل </wt>
+                            <wt xml:space="preserve">وإذا رأى هلال رمضان أو شوال نهارًا قبل </wt>
                         </wr>
                         <whyperlink rid="rId50" wanchor="الزوال__" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -9121,7 +9131,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9173,7 +9183,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B11866">
                             <wrPr>
@@ -9184,7 +9194,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">وقال </wt>
+                            <wt xml:space="preserve">وقال </wt>
                         </wr>
                         <whyperlink rid="rId51" wanchor="أبو_يوسف_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B11866">
@@ -9212,7 +9222,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9222,7 +9232,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9231,7 +9241,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">كذلك إن كان بعد </wt>
+                            <wt xml:space="preserve">كذلك إن كان بعد </wt>
                         </wr>
                         <whyperlink rid="rId52" wanchor="الزوال__" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -9263,7 +9273,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> أدل</wt>
+                            <wt xml:space="preserve"> أدل</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -9297,7 +9307,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">يروى </wt>
+                            <wt xml:space="preserve">يروى </wt>
                         </wr>
                         <wr wrsidR="00415E1F" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9306,7 +9316,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve">ذلك </wt>
+                            <wt xml:space="preserve">ذلك </wt>
                         </wr>
                         <wr wrsidR="00415E1F">
                             <wrPr>
@@ -9349,7 +9359,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> والأول يروى عن علي و</wt>
+                            <wt xml:space="preserve"> والأول يروى عن علي و</wt>
                         </wr>
                         <whyperlink rid="rId53" wanchor="ابن_مسعود_" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -9373,7 +9383,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9406,7 +9416,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidR="00E4381B">
                             <wrPr>
@@ -9449,7 +9459,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> ولأن الشهر ثابت بيقين، وبعض الأهِلَّة يكون أكبر من بعض، فيجوز أنهم رأوه قبل </wt>
+                            <wt xml:space="preserve"> ولأن الشهر ثابت بيقين، وبعض الأهِلَّة يكون أكبر من بعض، فيجوز أنهم رأوه قبل </wt>
                         </wr>
                         <whyperlink rid="rId55" wanchor="الزوال__" whistory="1">
                             <wr wrsidRPr="00B95CD4">
@@ -9473,7 +9483,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9526,7 +9536,7 @@
                                 <wszCs wval="30" />
                                 <wrtl />
                             </wrPr>
-                            <wt xmlspace="preserve"> وقال </wt>
+                            <wt xml:space="preserve"> وقال </wt>
                         </wr>
                         <whyperlink rid="rId56" wanchor="الحسن_بن_زياد_" whistory="1">
                             <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
@@ -9550,7 +9560,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidR="008B4D70" wrsidRPr="00B95CD4">
                             <wrPr>
@@ -9603,7 +9613,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00044B0F" wrsidRPr="00044B0F" wrsidRDefault="00044B0F" wrsidP="00044B0F">
@@ -9658,7 +9668,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9678,7 +9688,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> </wt>
+                            <wt xml:space="preserve">: </wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9698,7 +9708,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9718,7 +9728,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9738,7 +9748,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9758,7 +9768,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9778,7 +9788,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9798,7 +9808,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -9873,7 +9883,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -9892,7 +9902,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00044B0F" wrsidRPr="00044B0F" wrsidRDefault="00044B0F" wrsidP="00044B0F">
@@ -9982,7 +9992,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -10002,7 +10012,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                         <wr wrsidRPr="00044B0F">
                             <wrPr>
@@ -10022,7 +10032,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt></wt>
+                            <wt>:</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -10041,7 +10051,7 @@
                                 <wszCs wval="30" />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"></wt>
+                            <wt xml:space="preserve"></wt>
                         </wr>
                     </wp>
                     <wp wrsidR="00044B0F" wrsidRPr="00044B0F" wrsidRDefault="00EA7B0B" wrsidP="00044B0F">
@@ -10121,7 +10131,7 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wtab />
-                            <wt xmlspace="preserve">إن غم الهلال عليهم أكملوا ثلاثين </wt>
+                            <wt xml:space="preserve">إن غم الهلال عليهم أكملوا ثلاثين </wt>
                         </wr>
                         <wr wrsidR="003151C5" wrsidRPr="00044B0F">
                             <wrPr>
@@ -10266,7 +10276,7 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wtab />
-                            <wt xmlspace="preserve">يلتمس هلال شوال في التاسع والعشرين من </wt>
+                            <wt xml:space="preserve">يلتمس هلال شوال في التاسع والعشرين من </wt>
                         </wr>
                         <wr wrsidR="003151C5" wrsidRPr="00044B0F">
                             <wrPr>
@@ -10296,7 +10306,7 @@
                                 <wrtl />
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
-                            <wt xmlspace="preserve"> فإن رأوه أفطروا</wt>
+                            <wt xml:space="preserve"> فإن رأوه أفطروا</wt>
                         </wr>
                         <wr wrsidR="008B0021">
                             <wrPr>
@@ -10341,7 +10351,7 @@
                                 <wlang wbidi="ar-EG" />
                             </wrPr>
                             <wtab />
-                            <wt xmlspace="preserve">إن كان بالسماء علة قبل شهادة رجلين أو رجل </wt>
+                            <wt xml:space="preserve">إن كان بالسماء علة قبل شهادة رجلين أو رجل </wt>
                         </wr>
                         <wr wrsidR="003151C5" wrsidRPr="00044B0F">
                             <wrPr>
@@ -10457,4 +10467,4 @@
                         <wdocGrid wlinePitch="360" />
                     </wsectPr>
                 </wbody>
-            
+   

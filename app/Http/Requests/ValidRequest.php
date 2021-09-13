@@ -13,7 +13,7 @@ class ValidRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,7 @@ class ValidRequest extends FormRequest
     public function rules()
     {
         return [
-            'filename'=>'required|mimes:txt,docx|max:255',
+        'filename'=>'required|mimes:xml',
         ];
     }
 
@@ -32,7 +32,9 @@ class ValidRequest extends FormRequest
     {
 return[
     
-        'filename.required'=>__('messages.filename required'),
+        'filename.required'=>"الملــف مطـلوب ",
+        'filename.mimes'=>"صيغة الملف غبر صحيحة",
+        
         
 ];
     }

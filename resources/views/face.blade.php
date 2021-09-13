@@ -11,16 +11,23 @@
     <title>Interface</title>
   </head>
   <body>
+  <div class="container">
+  
   <form method="POST" action="{{route('convert')}}" enctype="multipart/form-data">
   @csrf
   <div class="Input_Box">
   <label for="formFileLg" class="form-label">اختر الملف</label>
   <input class="form-control form-control-lg" id="formFileLg" type="file" name="filename">
+  @error('filename')
+  <small class="form-text text-danger">{{$message}} </small>
+  @enderror
   <div class="form-group mt-3">
-  <button type="submit" class="button button-contactForm boxed-btn" name="click">تحويل</button>
+  <button type="submit"  class="btn btn-outline-success" name="click">تحويل</button>
+   
   </div>
 </div>
 </form>
+</div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
