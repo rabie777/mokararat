@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,10 +20,15 @@
   @csrf
   <div class="Input_Box">
   <label for="formFileLg" class="form-label">اختر الملف</label>
-  <input class="form-control form-control-lg" id="formFileLg" type="file" name="filename">
+  <input class="form-control form-control-lg" id="formFileLg" type="file" name="filename"  accept="file/*,.xml">
   @error('filename')
   <small class="form-text text-danger">{{$message}} </small>
   @enderror
+  <input class="form-control form-control-lg" id="formFileLg" type="text" name="lesson" placeholder="ادخل كود الدورة والدرس" >
+  @error('lesson')
+  <small class="form-text text-danger">{{$message}} </small>
+  @enderror
+
   <div class="form-group mt-3">
   <button type="submit"  class="btn btn-outline-success" name="click">تحويل</button>
    
@@ -42,3 +50,4 @@
     -->
   </body>
 </html>
+@endsection

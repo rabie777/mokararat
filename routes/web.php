@@ -18,23 +18,25 @@ Route::get('/', function () {
 });
 
  
-Route::get('/section', '\App\Http\Controllers\SectionController@tester');
+// Route::get('/section', '\App\Http\Controllers\SectionController@tester');
 
-Route::get('/get', '\App\Http\Controllers\TestController@tester');
 
-Route::get('/style', '\App\Http\Controllers\copyController@style');
-Route::get('/sector', '\App\Http\Controllers\SectorController@tester');
-
+// Route::get('/style', '\App\Http\Controllers\copyController@style');
+// Route::get('/sector', '\App\Http\Controllers\SectorController@tester');
 Route::get('/page', '\App\Http\Controllers\InterFaceController@userinterface')->name('page');
-Route::post('/convert', '\App\Http\Controllers\InterFaceController@rabie')->name('convert');
+ 
+ Route::post('/convert', '\App\Http\Controllers\InterFaceController@rabie')->name('convert');
 
 
-Route::get('/new', '\App\Http\Controllers\RabieController@tester');
+ Route::get('/new', '\App\Http\Controllers\RabieController@tester');
 
 
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 
+
+
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -25,13 +25,14 @@ class ValidRequest extends FormRequest
     {
         return [
         'filename'=>'required|mimes:xml',
+        'lesson'=>'required'
         ];
     }
 
     public function messages()
     {
 return[
-    
+    'lesson.required'=>"كود الدورة والدرس غير صحيح",
         'filename.required'=>"الملــف مطـلوب ",
         'filename.mimes'=>"صيغة الملف غبر صحيحة",
         
