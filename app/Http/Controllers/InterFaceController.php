@@ -95,7 +95,7 @@ class InterFaceController extends Controller
     
     echo '<a href="'.$username.'/'.$name.'/'.$request->lesson.$zipname.'" > أضغط لتحميل الملف </a>';
 
-       
+       /////////
 
 ////////////سليم
 //$files1 = scandir($dir);
